@@ -1,0 +1,5237 @@
+[
+  {
+    "1": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あの彼女、今度うちの学校に来るらしいよ。",
+            "けど、いつ来るか、わからない。"
+          ],
+          "trg": {
+            "correct": [
+              "That girl seems to come to our school soon.",
+              "But I don't know when she comes."
+            ],
+            "incorrect": [
+              "That girl seems to come to our school soon.",
+              "But I don't know when you come."
+            ]
+          }
+        }
+      ]
+    },
+    "2": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あの卒業生が、卒業して、就職できたらしいよ。",
+            "成績悪くて単位落としたんじゃなかったの？"
+          ],
+          "trg": {
+            "correct": [
+              "That alumna was able to graduate and get a job!",
+              "Didn't she have bad grades and lose some credits?"
+            ],
+            "incorrect": [
+              "That alumna was able to graduate and get a job!",
+              "Didn't you have bad grades and lose some credits?"
+            ]
+          }
+        }
+      ]
+    },
+    "3": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "そこを通りかかった大学生がボールを拾ってあげたんだ。",
+            "優しい人だったね。"
+          ],
+          "trg": {
+            "correct": [
+              "The college student passing by picked up a ball for me.",
+              "She was kind to you."
+            ],
+            "incorrect": [
+              "The college student passing by picked up a ball for me.",
+              "It was a kind person."
+            ]
+          }
+        }
+      ]
+    },
+    "4": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ミス・ユニバースの候補者達は、化粧をしなくても、欠点ひとつない。",
+            "性格も良い。"
+          ],
+          "trg": {
+            "correct": [
+              "These Miss Universe contestants are flawless without makeup.",
+              "Their characters are also nice."
+            ],
+            "incorrect": [
+              "These Miss Universe contestants are flawless without makeup.",
+              "Its character is also nice."
+            ]
+          }
+        }
+      ]
+    },
+    "5": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ミス・ユニバースの候補者達は、欠点ひとつない。",
+            "意志が勝つための鍵なんですね。"
+          ],
+          "trg": {
+            "correct": [
+              "This Miss Universe contestant is just flawless.",
+              "Her strong will is the key to win."
+            ],
+            "incorrect": [
+              "This Miss Universe contestant is just flawless.",
+              "Its strong will is the key to win."
+            ]
+          }
+        }
+      ]
+    },
+    "6": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "花子らがボランティアをしている。",
+            "良い行いをしていますね。"
+          ],
+          "trg": {
+            "correct": [
+              "Hanako and others are volunteering in a nursing home.",
+              "They are doing good things. "
+            ],
+            "incorrect": [
+              "Hanako and others are volunteering in a nursing home.",
+              "Your are doing good things. "
+            ]
+          }
+        }
+      ]
+    },
+    "7": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "面白い政治の本を読んだ。",
+            "その著者を知ってるよ。"
+          ],
+          "trg": {
+            "correct": [
+              "I just read a interesting book in politics.",
+              "Wait, I might know the author."
+            ],
+            "incorrect": [
+              "I just read a interesting book in politics.",
+              "Wait, I might know an author."
+            ]
+          }
+        }
+      ]
+    },
+    "8": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "警官に職質されたんだって？",
+            "そうです、非常に乱暴でした。"
+          ],
+          "trg": {
+            "correct": [
+              "Were you pulled over by a policeman?",
+              "Yes, it was vey rough."
+            ],
+            "incorrect": [
+              "Were you pulled over by a policeman?",
+              "Yes, I was very rough."
+            ]
+          }
+        }
+      ]
+    },
+    "9": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "今のアメリカの大統領は、ほとんど必要ないんじゃないかと思えるくらい、たくさんツイートしています。",
+            "ツイート中毒なのは、みんな知ってますよ。"
+          ],
+          "trg": {
+            "correct": [
+              "The current president of the US tweets quite often, which I think is unnecessary in many cases.",
+              "Everyone knows he is addicted to tweets."
+            ],
+            "incorrect": [
+              "The current president of the US tweets quite often, which I think is unnecessary in many cases.",
+              "Everyone knows it is addicted to tweets."
+            ]
+          }
+        }
+      ]
+    },
+    "10": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "まずこの男に察してもらわなくては。",
+            "わかってます。"
+          ],
+          "trg": {
+            "correct": [
+              "First, I had to make sure this guy knew the score. ",
+              "I know."
+            ],
+            "incorrect": [
+              "First, I had to make sure this guy knew the score. ",
+              "He knows."
+            ]
+          }
+        }
+      ]
+    },
+    "11": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼女を遺体を隠し車で逃げるのは？",
+            "やつを車に入れたまま放置できない。"
+          ],
+          "trg": {
+            "correct": [
+              "So what else was there to do, but hide her body and get away in the car?",
+              "I couldn't leave the car there with him in the gully."
+            ],
+            "incorrect": [
+              "So what else was there to do, but hide her body and get away in the car?",
+              "I couldn't leave the car there with you in the gully."
+            ]
+          }
+        }
+      ]
+    },
+    "12": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ハスケルの親父より運が良かったな...",
+            "息子がバスを降ろされてな。"
+          ],
+          "trg": {
+            "correct": [
+              "I told myself maybe I was luckier than old man Haskell.",
+              "My son was kicked off the bus."
+            ],
+            "incorrect": [
+              "I told myself maybe I was luckier than old man Haskell.",
+              "His son was kicked off the bus."
+            ]
+          }
+        }
+      ]
+    },
+    "13": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "エンマは裁判受けて処刑されたいそうだ。",
+            "狂ってる。"
+          ],
+          "trg": {
+            "correct": [
+              "Emma wants them to judge it and her execute.",
+              "It is crazy."
+            ],
+            "incorrect": [
+              "Emma wants them to judge it and her execute.",
+              "You are crazy."
+            ]
+          }
+        }
+      ]
+    },
+    "14": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あっちの方に走って行った小さい子供見なかったか？",
+            "人相は？"
+          ],
+          "trg": {
+            "correct": [
+              "Did you see a little boy running over there?",
+              "What aspect did he have?"
+            ],
+            "incorrect": [
+              "Did you see a little boy running over there?",
+              "What aspect did it have?"
+            ]
+          }
+        }
+      ]
+    },
+    "15": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "お前なんかしたのか？",
+            "15ドル盗ったんだ。"
+          ],
+          "trg": {
+            "correct": [
+              "Did you do anything?",
+              "I stole 15 dollars."
+            ],
+            "incorrect": [
+              "Did you do anything?",
+              "He stole 15 dollars."
+            ]
+          }
+        }
+      ]
+    },
+    "16": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ジョニー見かけた？",
+            "出てったきりだ。"
+          ],
+          "trg": {
+            "correct": [
+              "Have you seen Johnny?",
+              "He went out."
+            ],
+            "incorrect": [
+              "Have you seen Johnny?",
+              "I went out."
+            ]
+          }
+        }
+      ]
+    },
+    "17": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "デザイナーのジェームズ・リベラさんはご存じで？",
+            "この部屋に3年住んでました。"
+          ],
+          "trg": {
+            "correct": [
+              "Have you ever heard of James Rivera the designer?",
+              "He rented the apartment during three years."
+            ],
+            "incorrect": [
+              "Have you ever heard of James Rivera the designer?",
+              "I rented the apartment during three years."
+            ]
+          }
+        }
+      ]
+    },
+    "18": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "マイケルは一番のソウルメイトなの。",
+            "まだ付き合ってるの？"
+          ],
+          "trg": {
+            "correct": [
+              "Michael's been my favorite soul mate for a long time.",
+              "Do you still see him?"
+            ],
+            "incorrect": [
+              "Michael's been my favorite soul mate for a long time.",
+              "Do you still see her?"
+            ]
+          }
+        }
+      ]
+    },
+    "19": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "フロリダの岸辺で、友達がボートでやってきた子供を見たらしい。",
+            "どこから来たんだろう。"
+          ],
+          "trg": {
+            "correct": [
+              "At the shore in Florida, a friend of mine saw children who came with a boat.",
+              "I wonder where they are from. "
+            ],
+            "incorrect": [
+              "At the shore in Florida, a friend of mine saw children who came with a boat.",
+              "I wonder where it is from. "
+            ]
+          }
+        }
+      ]
+    },
+    "20": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "それでやつらはあそこで... 何をしているんだい？",
+            "何もしてませんね。"
+          ],
+          "trg": {
+            "correct": [
+              "So, what's a couple of guys over there ... doing out so late, eh?",
+              " They're not doing anything."
+            ],
+            "incorrect": [
+              "So, what's a couple of guys over there ... doing out so late, eh?",
+              "I'm not doing anything."
+            ]
+          }
+        }
+      ]
+    },
+    "21": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は手を叩いたりしてすごく楽しみました。",
+            "足も上げてましたし。"
+          ],
+          "trg": {
+            "correct": [
+              "I had so much fun, clapping my hands.",
+              "And rising to my feet too!"
+            ],
+            "incorrect": [
+              "I had so much fun, clapping my hands.",
+              "And rising to his feet too!"
+            ]
+          }
+        }
+      ]
+    },
+    "22": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "オーケストラは移動コストがかかる。",
+            "楽器への保険代もかかる。"
+          ],
+          "trg": {
+            "correct": [
+              "The orchestra spends so much money moving cost.",
+              "Also, the insurance for its instruments."
+            ],
+            "incorrect": [
+              "The orchestra spends so much money moving cost.",
+              "Also, the insurance for their instruments."
+            ]
+          }
+        }
+      ]
+    },
+    "23": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "グリーシャが帰るまで 子供を頼むよ",
+            "わかった、見ておくよ。"
+          ],
+          "trg": {
+            "correct": [
+              "Look after the child till Grisha comes.",
+              "Sure, I'll take care of him."
+            ],
+            "incorrect": [
+              "Look after the child till Grisha comes.",
+              "Sure, I'll take care of them."
+            ]
+          }
+        }
+      ]
+    },
+    "24": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "親はどこか行ったよ",
+            "どこに行ったの？"
+          ],
+          "trg": {
+            "correct": [
+              "My parents are gone somewhere.",
+              "Where did they go?"
+            ],
+            "incorrect": [
+              "My parents are gone somewhere.",
+              "Where did you go?"
+            ]
+          }
+        }
+      ]
+    },
+    "25": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "これは、素晴らしいクリエイティヴな科学者が、１０年間外部の介入を断ち切って作った製品です。",
+            "すぐに製品を見せてくれないか？"
+          ],
+          "trg": {
+            "correct": [
+              "This is a product from a group of brilliant, creative scientists cocoon for ten years in a laboratory without outside intervention.",
+              "Show me its product as soon as possible. "
+            ],
+            "incorrect": [
+              "This is a product from a group of brilliant, creative scientists cocoon for ten years in a laboratory without outside intervention.",
+              "Show me their product as soon as possible."
+            ]
+          }
+        }
+      ]
+    },
+    "26": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ハリウッドのやつら見る目がないな。",
+            "何ができるか見せてやろう。"
+          ],
+          "trg": {
+            "correct": [
+              "Those guys out in Hollywood don't know the real thing when it's right in front of them.",
+              "Let them know what I can do."
+            ],
+            "incorrect": [
+              "Those guys out in Hollywood don't know the real thing when it's right in front of them.",
+              "Let you know what I can do."
+            ]
+          }
+        }
+      ]
+    },
+    "27": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "マシューが確認用に義姉に広告を持ってきたんだ。",
+            "彼女はあいつのクソ広告なんか載せないよ。"
+          ],
+          "trg": {
+            "correct": [
+              "Matthew just brought my sister-in-law an ad for review.",
+              "And she is not going to post his stinking ad!"
+            ],
+            "incorrect": [
+              "Matthew just brought my sister-in-law an ad for review.",
+              "And she is not going to post her stinking ad!"
+            ]
+          }
+        }
+      ]
+    },
+    "28": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ビルに何かあったのか？",
+            "うまく行かなかったんだ。"
+          ],
+          "trg": {
+            "correct": [
+              "What's happening to your plan to go on a trip with his girlfriend?",
+              "I failed to do so."
+            ],
+            "incorrect": [
+              "What's happening to your plan to go on a trip with his girlfriend?",
+              "He failed to do so."
+            ]
+          }
+        }
+      ]
+    },
+    "29": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "君が何をすべきかわかってる？",
+            "何をすべきか分かってると思うよ。"
+          ],
+          "trg": {
+            "correct": [
+              "Do you know what you should do?",
+              "I think I know what I should do."
+            ],
+            "incorrect": [
+              "Do you know what you should do?",
+              "I think I know what you should do."
+            ]
+          }
+        }
+      ]
+    },
+    "30": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "お粗末な救出ね、どうして私に計画を作らせなかったの？",
+            "何も知らないのに。"
+          ],
+          "trg": {
+            "correct": [
+              "This is some rescue! Why didn't ask me for a plan to get out?",
+              "You don't know anything."
+            ],
+            "incorrect": [
+              "This is some rescue! Why didn't ask me for a plan to get out?",
+              "He doesn't know anything."
+            ]
+          }
+        }
+      ]
+    },
+    "31": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "さぁ、チビッコさん、行きましょう。",
+            "どこに連れていくの？"
+          ],
+          "trg": {
+            "correct": [
+              "Let's get a move on, kids.",
+              "Where are you taking us?"
+            ],
+            "incorrect": [
+              "Let's get a move on, kids.",
+              "Where are you taking me?"
+            ]
+          }
+        }
+      ]
+    },
+    "32": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "子供達を世話できる人、誰もいないのですか?",
+            "やんちゃなので、誰もやりませんよ。"
+          ],
+          "trg": {
+            "correct": [
+              "Can't anyone come to take care of the kids?",
+              "Nobody wants to do it, because they are naughty. "
+            ],
+            "incorrect": [
+              "Can't anyone come to take care of the kids?",
+              "Nobody wants to do it, because you are naughty. "
+            ]
+          }
+        }
+      ]
+    },
+    "33": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "子供達は看護婦と一緒に来るの？",
+            "行きますよ。"
+          ],
+          "trg": {
+            "correct": [
+              "These kids are coming with a nurse?",
+              "Yes, they are coming."
+            ],
+            "incorrect": [
+              "These kids are coming with a nurse?",
+              "Yes, I am coming."
+            ]
+          }
+        }
+      ]
+    },
+    "34": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "スタンジックのような奴らはとことん仕返しをする。",
+            "俺らの居場所は知っているんだろうか。"
+          ],
+          "trg": {
+            "correct": [
+              "Guys like Stansyck, those guys don't stop until they get even.",
+              "I wonder if you know where we are."
+            ],
+            "incorrect": [
+              "Guys like Stansyck, those guys don't stop until they get even.",
+              "I wonder if they know where we are."
+            ]
+          }
+        }
+      ]
+    },
+    "35": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "こいつらに殺される前に、...",
+            "さっさと俺らだけで殺っちまおう。"
+          ],
+          "trg": {
+            "correct": [
+              "Before they kill us, ...",
+              "We'll kill them now."
+            ],
+            "incorrect": [
+              "Before they kill us, ...",
+              "We'll kill him now."
+            ]
+          }
+        }
+      ]
+    },
+    "36": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ロバなんかいやだ、ここから出して。",
+            "おまえ、ロバそっくりだったぜ。"
+          ],
+          "trg": {
+            "correct": [
+              "I don't wanna be a donkey, so let me outta here!",
+              "Hey, you laugh like a donkey."
+            ],
+            "incorrect": [
+              "I don't wanna be a donkey, so let me outta here!",
+              "Hey, you laugh like the donkey."
+            ]
+          }
+        }
+      ]
+    },
+    "37": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "これが探していた鳥か？",
+            "そうだ、これが、探していた鳥だ。"
+          ],
+          "trg": {
+            "correct": [
+              "Is that the bird you are looking for?",
+              "Yes, this is the bird I'm looking for."
+            ],
+            "incorrect": [
+              "Is that the bird you are looking for?",
+              "Yes, this is a bird I'm looking for."
+            ]
+          }
+        }
+      ]
+    },
+    "38": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "目を閉じ、体の力が抜けていた。",
+            "その後、突然、目が開いた。"
+          ],
+          "trg": {
+            "correct": [
+              "With her eyes closed, and the tempest gone out of them.",
+              "Then they opened widely all of sudden."
+            ],
+            "incorrect": [
+              "With her eyes closed, and the tempest gone out of them.",
+              "Then it opened widely all of sudden."
+            ]
+          }
+        }
+      ]
+    },
+    "39": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "救急車を呼んで！俺の足がまったく動かない。",
+            "足がまったく動かないのか？"
+          ],
+          "trg": {
+            "correct": [
+              "Call an ambulance! My legs aren't moving at all. ",
+              "They aren't moving at all?"
+            ],
+            "incorrect": [
+              "Call an ambulance! My legs aren't moving at all. ",
+              "It isn't moving at all?"
+            ]
+          }
+        }
+      ]
+    },
+    "40": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "僕は大人になったら世界で一番美しい女性と結婚したかった。",
+            "で、ある日目の前に現れたってわけか・・・。"
+          ],
+          "trg": {
+            "correct": [
+              "I wanted to grow up and marry the most beautiful woman in the world.",
+              "Then, she showed up in front of me ... "
+            ],
+            "incorrect": [
+              "I wanted to grow up and marry the most beautiful woman in the world.",
+              "Then, she showed up in front of him ... "
+            ]
+          }
+        }
+      ]
+    },
+    "41": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ジョーの仕事はあとどれくらい残っているの？",
+            "あと少し塗れば完成だと伝えてくれ。"
+          ],
+          "trg": {
+            "correct": [
+              "How much work does Joe still have?",
+              "Just a little more paint and he's all set."
+            ],
+            "incorrect": [
+              "How much work does Joe still have?",
+              "Just a little more paint and you are all set."
+            ]
+          }
+        }
+      ]
+    },
+    "42": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "どこからこんなにもアリが集まってきたのだ？",
+            "地下から来ている。"
+          ],
+          "trg": {
+            "correct": [
+              "Where'd all the swarming ants be from?",
+              "They are from the basement."
+            ],
+            "incorrect": [
+              "Where'd all the swarming ants be from?",
+              "It is from the basement."
+            ]
+          }
+        }
+      ]
+    },
+    "43": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ご紹介しましょう、みなさんの心をふるわす歌姫、アッシュです！",
+            "素晴らしい歌声を聞いて下さい。"
+          ],
+          "trg": {
+            "correct": [
+              "Allow me to introduce the singing sensation, the diva Ash.",
+              "You should listen to her marvelous voice."
+            ],
+            "incorrect": [
+              "Allow me to introduce the singing sensation, the diva Ash.",
+              "You should listen to my marvelous voice."
+            ]
+          }
+        }
+      ]
+    },
+    "44": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "チェチーリア・バルトリは、有名なオペラ歌手です。",
+            "歌声を忘れることはできません。"
+          ],
+          "trg": {
+            "correct": [
+              "Cecilia Bartoli is a popular opera singer.",
+              "You can't forget her voice."
+            ],
+            "incorrect": [
+              "Cecilia Bartoli is a popular opera singer.",
+              "You can't forget its voice."
+            ]
+          }
+        }
+      ]
+    },
+    "45": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "天皇陛下が2019年4月30日を以て退位すると報道された。",
+            "驚きましたよね？"
+          ],
+          "trg": {
+            "correct": [
+              "It was announced at Emperor will officially abdicate on April 30, 2019. ",
+              "Weren't you surprised at the news?"
+            ],
+            "incorrect": [
+              "It was announced at Emperor will officially abdicate on April 30, 2019. ",
+              "Wasn't he surprised at the news?"
+            ]
+          }
+        }
+      ]
+    },
+    "46": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "メイドとして雇われたことはある？",
+            "あるけど、1日で辞めたんだ。"
+          ],
+          "trg": {
+            "correct": [
+              "Have you ever been hired as a maid?",
+              "Yes, but I quit on the first day."
+            ],
+            "incorrect": [
+              "Have you ever been hired as a maid?",
+              "Yes, but she quit on the first day."
+            ]
+          }
+        }
+      ]
+    },
+    "47": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "女優のキャサリン・ハーンがクライスラーパシフィカのキャンペーン広告に出演している。",
+            "クライスラーのはじめてのハイブリッド車のミニバンを宣伝しています。"
+          ],
+          "trg": {
+            "correct": [
+              "Actress Kathryn Hahn stars in an ad campaign for the Chrysler Pacifica",
+              "She promotes Chrysler's first hybrid minivan."
+            ],
+            "incorrect": [
+              "Actress Kathryn Hahn stars in an ad campaign for the Chrysler Pacifica",
+              "We promote Chrysler's first hybrid minivan."
+            ]
+          }
+        }
+      ]
+    },
+    "48": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "メーガン・マークルは、王室内でユニークな自分の立ち位置を作り出しています。",
+            "今日はエリザベス2世と一緒に公の場に出た最初の日となりました。"
+          ],
+          "trg": {
+            "correct": [
+              "Meghan Markle is creating a unique spot for herself within the royal family.",
+              "Today marked her first official appearance alongside Queen Elizabeth II."
+            ],
+            "incorrect": [
+              "Meghan Markle is creating a unique spot for herself within the royal family.",
+              "Today marked my first official appearance alongside Queen Elizabeth II."
+            ]
+          }
+        }
+      ]
+    },
+    "49": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "太郎のレクチャーは何回聞いても刺激になる。",
+            "またやってもらえるようにお願いしましょうか？"
+          ],
+          "trg": {
+            "correct": [
+              "Taro's lecture always excites me.",
+              "Should I ask for him to do it again?"
+            ],
+            "incorrect": [
+              "Taro's lecture always excites me.",
+              "Should I ask for you to do it again?"
+            ]
+          }
+        }
+      ]
+    },
+    "50": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この学校内にポスターを貼っておいたんだけど、君は見たかな？",
+            "見たような気もする。"
+          ],
+          "trg": {
+            "correct": [
+              "I posted a poster in this school, and did you even see it?",
+              "I might have seen it."
+            ],
+            "incorrect": [
+              "I posted a poster in this school, and did you even see it?",
+              "He might have seen it."
+            ]
+          }
+        }
+      ]
+    },
+    "51": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "イベントについて今彼に言ってみたんだけど。",
+            "知らなかったみたい。"
+          ],
+          "trg": {
+            "correct": [
+              "I just talked to him about the event.",
+              "It seems he did not know."
+            ],
+            "incorrect": [
+              "I just talked to him about the event.",
+              "It seems I did not know."
+            ]
+          }
+        }
+      ]
+    },
+    "52": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "今週金曜にパーティが2個続けてあるんだけど行く？",
+            "今週の金曜日なの？"
+          ],
+          "trg": {
+            "correct": [
+              "There are two parties in a row on this Friday, and are going with me?",
+              "Are they on this Friday?"
+            ],
+            "incorrect": [
+              "There are two parties in a row on this Friday, and are going with me?",
+              "Is it on this Friday?"
+            ]
+          }
+        }
+      ]
+    },
+    "53": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "今度のコンサートは、席の予約が必要ですか？２人なんですが。",
+            "予約不要です。"
+          ],
+          "trg": {
+            "correct": [
+              "Do we have to reserve seats for the next concert? We are a party of two.",
+              "The reservation for the seats is unnecessary. "
+            ],
+            "incorrect": [
+              "Do we have to reserve seats for the next concert? We are a party of two.",
+              "The reservation for the seat is unnecessary. "
+            ]
+          }
+        }
+      ]
+    },
+    "54": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "夫婦限定の食事会なんですが、行きますか？",
+            "食事会に参加します。"
+          ],
+          "trg": {
+            "correct": [
+              "It is a couple-only dinner party, will you go?",
+              "We will attend dinner party."
+            ],
+            "incorrect": [
+              "It is a couple-only dinner party, will you go?",
+              "I will attend dinner party."
+            ]
+          }
+        }
+      ]
+    },
+    "55": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私たち鎖で繋がれてるけど。",
+            "どこに連れて行かれるの？"
+          ],
+          "trg": {
+            "correct": [
+              "We are in chains right now.",
+              "Where are you taking us?"
+            ],
+            "incorrect": [
+              "We are in chains right now.",
+              "Where are you taking me?"
+            ]
+          }
+        }
+      ]
+    },
+    "56": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この動物は病気で、余命幾日もないらしい。",
+            "とうてい死にそうには見えない。"
+          ],
+          "trg": {
+            "correct": [
+              "This animal is sick, and it won't live for several days.",
+              "It doesn't look it's going to die."
+            ],
+            "incorrect": [
+              "This animal is sick, and it won't live for several days.",
+              "It doesn't look he's going to die."
+            ]
+          }
+        }
+      ]
+    },
+    "57": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "寿司職人は、時間をかけてより良い米を探す。",
+            "そうして、おいしいごはんを炊き上げたのだ。"
+          ],
+          "trg": {
+            "correct": [
+              "The sushi chef takes some time to look for better rice. ",
+              "That's how he cooked delicious rice. "
+            ],
+            "incorrect": [
+              "The sushi chef takes some time to look for better rice. ",
+              "That's how I cooked delicious rice. "
+            ]
+          }
+        }
+      ]
+    },
+    "58": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私があげた大切なお香を友達は引き出しから出した。",
+            "そして部屋にお香を薫き込めた。"
+          ],
+          "trg": {
+            "correct": [
+              "My friend took out some precious incense from drawer that I gave her.",
+              "And I smelled the incense in my room."
+            ],
+            "incorrect": [
+              "My friend took out some precious incense from drawer that I gave her.",
+              "And he smelled the incense in my room."
+            ]
+          }
+        }
+      ]
+    },
+    "59": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "先生はパソコンを箱から取り出した。",
+            "そして、パソコンを立ち上げた。"
+          ],
+          "trg": {
+            "correct": [
+              "The teacher took the computer out of the box.",
+              "And she turned on the computer. "
+            ],
+            "incorrect": [
+              "The teacher took the computer out of the box.",
+              "And I turned on the computer. "
+            ]
+          }
+        }
+      ]
+    },
+    "60": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ビルの火災報知器をチェックしたら、1個壊れているのが見つかりました。",
+            "交換しておきました。"
+          ],
+          "trg": {
+            "correct": [
+              "I checked the building's fire alarms, and found that one of them were broken.",
+              "I replaced it."
+            ],
+            "incorrect": [
+              "I checked the building's fire alarms, and found that one of them were broken.",
+              "I replaced them."
+            ]
+          }
+        }
+      ]
+    },
+    "61": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "午前中の問い合わせ件数は5件で、すべて1人のお客様からでした。",
+            "お客様は満足していましたか？"
+          ],
+          "trg": {
+            "correct": [
+              "There were 5 inquiries in the morning, and they were all from a single customer.",
+              "Was the customer satisfied with your answers?"
+            ],
+            "incorrect": [
+              "There were 5 inquiries in the morning, and they were all from a single customer.",
+              "Were the customers satisfied with your answers?"
+            ]
+          }
+        }
+      ]
+    },
+    "62": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "両親は双子の娘を説得しようとしていた。",
+            "親が説得しようとしたのは、地元で就職することだった。"
+          ],
+          "trg": {
+            "correct": [
+              "Their parents were trying to persuade their twin sisters.",
+              "What the parent persuaded was that they should work near their hometown."
+            ],
+            "incorrect": [
+              "Their parents were trying to persuade their twin sisters.",
+              "What the parent persuaded was that she should work near her hometown."
+            ]
+          }
+        }
+      ]
+    },
+    "63": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "上司はいつも怒っている。",
+            "加えて、決して、ほめたことがない。"
+          ],
+          "trg": {
+            "correct": [
+              "My boss always pisses off.",
+              "In addition, he's never praised anyone."
+            ],
+            "incorrect": [
+              "My boss always pisses off.",
+              "In addition, I've never praised anyone."
+            ]
+          }
+        }
+      ]
+    },
+    "64": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "友達は悲しんでいた。",
+            "飼っていた子犬が昨日死んでしまったのだ。"
+          ],
+          "trg": {
+            "correct": [
+              "A friend of mine was in sorrow.",
+              "The puppy she had died yesterday."
+            ],
+            "incorrect": [
+              "A friend of mine was in sorrow.",
+              "The puppy they had died yesterday."
+            ]
+          }
+        }
+      ]
+    },
+    "65": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "子どもたちは私の目の前でゴミを道端に投げ捨てた。",
+            "だから、注意した。"
+          ],
+          "trg": {
+            "correct": [
+              "The children threw trash to the roadside in front of me. ",
+              "So I warned them."
+            ],
+            "incorrect": [
+              "The children threw trash to the roadside in front of me. ",
+              "So I warned him."
+            ]
+          }
+        }
+      ]
+    },
+    "66": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あなたは何を考えて行動しているのですか？",
+            "全く反省していないように見えます。"
+          ],
+          "trg": {
+            "correct": [
+              "What are you thinking about?",
+              "You do not seem to reflect on it at all."
+            ],
+            "incorrect": [
+              "What are you thinking about?",
+              "I do not seem to reflect on it at all."
+            ]
+          }
+        }
+      ]
+    },
+    "67": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "乗客は困っていた。",
+            "居眠りしていて、降りる予定の駅を乗り過ごしてしまったからだ。"
+          ],
+          "trg": {
+            "correct": [
+              "The passenger was in trouble.",
+              "Because he overslept and got over the station he planned to get off."
+            ],
+            "incorrect": [
+              "The passenger was in trouble.",
+              "Because I overslept and got over the station I planned to get off."
+            ]
+          }
+        }
+      ]
+    },
+    "68": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "老人は、引っ越しは、すべてひとりでやらなければならなかった。",
+            "家具も全部一階から二階に運び上げた。"
+          ],
+          "trg": {
+            "correct": [
+              "The old man had to do all the move by himself.",
+              "He carried all the furniture from the first floor to the second floor."
+            ],
+            "incorrect": [
+              "The old man had to do all the move by himself.",
+              "I carried all the furniture from the first floor to the second floor."
+            ]
+          }
+        }
+      ]
+    },
+    "69": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "３人がかりで３階から１階に冷蔵庫を運び下ろした。",
+            "ピアノもそうやって運んだ。"
+          ],
+          "trg": {
+            "correct": [
+              "It took three people to carry the refrigerator from the third floor to the first floor.",
+              "they also carried the piano like that."
+            ],
+            "incorrect": [
+              "It took three people to carry the refrigerator from the third floor to the first floor.",
+              "I also carried the piano like that."
+            ]
+          }
+        }
+      ]
+    },
+    "70": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "学生は手分けをしてチラシを配った。",
+            "一日中、重い荷物を運び回った。"
+          ],
+          "trg": {
+            "correct": [
+              "The student got handed out the flyers.",
+              "He carried the heavy baggage all day long."
+            ],
+            "incorrect": [
+              "The student got handed out the flyers.",
+              "They carried the heavy baggage all day long."
+            ]
+          }
+        }
+      ]
+    },
+    "71": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "女性事務員は、書類にメモを書いた。",
+            "そして、フォルダーに書類を挟み入れた。"
+          ],
+          "trg": {
+            "correct": [
+              "The female clerk wrote a note in a document.",
+              "Then, she put the document in a manila folder."
+            ],
+            "incorrect": [
+              "The female clerk wrote a note in a document.",
+              "Then, I put the document in a manila folder."
+            ]
+          }
+        }
+      ]
+    },
+    "72": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あのロボットすごいですよ。",
+            "生卵を割れるんです。"
+          ],
+          "trg": {
+            "correct": [
+              "That robot is amazing.",
+              "It can break raw eggs."
+            ],
+            "incorrect": [
+              "That robot is amazing.",
+              "I can break raw eggs."
+            ]
+          }
+        }
+      ]
+    },
+    "73": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "社長のムール貝の食べ方、知ってる？",
+            "最初にバネがきいたのを１つ選んで食べ、その貝殻をトング代わりに使うのです。"
+          ],
+          "trg": {
+            "correct": [
+              "Do you know how the president eats mussels?",
+              "He picks one that works like a spring and uses that shell instead of a tong."
+            ],
+            "incorrect": [
+              "Do you know how the president eats mussels?",
+              "You pick one that works like a spring and use that shell instead of a tong."
+            ]
+          }
+        }
+      ]
+    },
+    "74": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "エンジニアが2人がかりでやっと仕事が終わった。",
+            "今日やった仕事は、金属の板をクランプで挟みつけるというものだった。"
+          ],
+          "trg": {
+            "correct": [
+              "The engineers finally finished their work with two people.",
+              "The work I did today was to pinch metal plates with clamps."
+            ],
+            "incorrect": [
+              "The engineers finally finished their work with two people.",
+              "The work they did today was to pinch metal plates with clamps."
+            ]
+          }
+        }
+      ]
+    },
+    "75": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この工場では、機械ではなく人の手で不良品を弾き出す。",
+            "手が頼りだ。"
+          ],
+          "trg": {
+            "correct": [
+              "In this factory, not a machine, but a man's hand finds defective items.",
+              "It depends on his hands."
+            ],
+            "incorrect": [
+              "In this factory, not a machine, but a man's hand finds defective items.",
+              "It depends on my hands."
+            ]
+          }
+        }
+      ]
+    },
+    "76": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "会計士は、おおよその被害金額を弾き出した。",
+            "しかし、間違えてしまい、金額が倍になってしまった。"
+          ],
+          "trg": {
+            "correct": [
+              "The accountant member calculated the approximate damage amount.",
+              "He made a mistake, and the amount got doubled. "
+            ],
+            "incorrect": [
+              "The accountant member calculated the approximate damage amount.",
+              "They made a mistake, and the amount got doubled. "
+            ]
+          }
+        }
+      ]
+    },
+    "77": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "カスタマーサービス部の佐藤さんですね？",
+            "今すぐ来てもらいたいのですが。"
+          ],
+          "trg": {
+            "correct": [
+              "Are you Mr. Sato from the customer service section?",
+              "I would you you to come right now."
+            ],
+            "incorrect": [
+              "Are you Mr. Sato from the customer service section?",
+              "I would like him to come right now."
+            ]
+          }
+        }
+      ]
+    },
+    "78": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あのシンガー、怒鳴っているように歌ってる。",
+            "大声を張り上げて歌わなくて良いのに。"
+          ],
+          "trg": {
+            "correct": [
+              "That singer is singing like yelling.",
+              "He doesn't have to sing so loudly."
+            ],
+            "incorrect": [
+              "That singer is singing like yelling.",
+              "You don't have to sing so loudly."
+            ]
+          }
+        }
+      ]
+    },
+    "79": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "デザイナーがこう提案した。",
+            "居間のクロスを貼り替えたい。"
+          ],
+          "trg": {
+            "correct": [
+              "The designer proposed this.",
+              "He would like to change the cross in the living room."
+            ],
+            "incorrect": [
+              "The designer proposed this.",
+              "I would like to change the cross in the living room."
+            ]
+          }
+        }
+      ]
+    },
+    "80": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "十分に子どもたちを鍛えた。",
+            "張り切りすぎたのか、試合には負けてしまった。"
+          ],
+          "trg": {
+            "correct": [
+              "I've trained the children enough.",
+              "They were in high spirits, but they lost to the game."
+            ],
+            "incorrect": [
+              "I've trained the children enough.",
+              "I was in high spirits, but I lost to the game."
+            ]
+          }
+        }
+      ]
+    },
+    "81": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "いつまで2人で待てばよいだろうか。",
+            "もう遅いから、引き揚げよう。"
+          ],
+          "trg": {
+            "correct": [
+              "How long shall two of us wait?",
+              "Since it is already late, we will finish it."
+            ],
+            "incorrect": [
+              "How long shall two of us wait?",
+              "Since it is already late, I will finish it."
+            ]
+          }
+        }
+      ]
+    },
+    "82": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼をスカウトしてもらえますか？",
+            "是非、うちのチームに入ってほしい。"
+          ],
+          "trg": {
+            "correct": [
+              "Could you please scout him?",
+              "I definitely want him to join in our team."
+            ],
+            "incorrect": [
+              "Could you please scout him?",
+              "I definitely want you to join in our team."
+            ]
+          }
+        }
+      ]
+    },
+    "83": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "銀行に問題があり、人が殺到した。",
+            "そして、預金を全部引き下ろしていった。"
+          ],
+          "trg": {
+            "correct": [
+              "There was a problem with the bank, and people were flooded.",
+              "Then, they withdrew all the deposits."
+            ],
+            "incorrect": [
+              "There was a problem with the bank, and people were flooded.",
+              "Then, I withdrew all the deposits."
+            ]
+          }
+        }
+      ]
+    },
+    "84": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "上司は、最近物忘れが激しい。",
+            "会社に行く途中で、忘れ物に気がついて、家に引き返したこともある。"
+          ],
+          "trg": {
+            "correct": [
+              "Recently my boss forgets a lot of things.",
+              "On his way to the office, he noticed something he forgot and returned to his house."
+            ],
+            "incorrect": [
+              "Recently my boss forgets a lot of things.",
+              "On my way to the office, I noticed something I forgot and returned to my house."
+            ]
+          }
+        }
+      ]
+    },
+    "85": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この男は人と比較したがる傾向がある。",
+            "相手の境遇を我が身に引き比べているのだ。"
+          ],
+          "trg": {
+            "correct": [
+              "This man tends to want to compare with people.",
+              "He compares the opponent's circumstances to his."
+            ],
+            "incorrect": [
+              "This man tends to want to compare with people.",
+              "I compare the opponent's circumstances to mine."
+            ]
+          }
+        }
+      ]
+    },
+    "86": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "このあなた達にやってもらいたいことがあります。",
+            "２つの辞書を引き比べる仕事をお願いしたい。"
+          ],
+          "trg": {
+            "correct": [
+              "There are things that I would like you guys to do.",
+              "I would like you to work of comparing two dictionaries. "
+            ],
+            "incorrect": [
+              "There are things that I would like you guys to do.",
+              "I would like them to work of comparing two dictionaries. "
+            ]
+          }
+        }
+      ]
+    },
+    "87": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ネットワークケーブルを2本家に引き込んだ。",
+            "そして、寝室に引き回した。"
+          ],
+          "trg": {
+            "correct": [
+              "I installed two network cables into our house.",
+              "Then I put them to my bedroom. "
+            ],
+            "incorrect": [
+              "I installed two network cables into our house.",
+              "Then I put it to my bedroom. "
+            ]
+          }
+        }
+      ]
+    },
+    "88": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "みんな頑張ってダイエットをしよう。",
+            "エクササイズでお腹を引き締めよう。"
+          ],
+          "trg": {
+            "correct": [
+              "Let's do our best and go on a diet.",
+              "Let's tighten your belly by exercising."
+            ],
+            "incorrect": [
+              "Let's do our best and go on a diet.",
+              "Let's tighten our belly by exercising."
+            ]
+          }
+        }
+      ]
+    },
+    "89": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "近所の男の子にお願いしたいんだけど",
+            "荷物を二階にあげてほしいの。"
+          ],
+          "trg": {
+            "correct": [
+              "I'd like to ask boys in the neighbourhood. ",
+              "I would like them to bring the baggage upstairs. "
+            ],
+            "incorrect": [
+              "I'd like to ask boys in the neighbourhood. ",
+              "I would like you to bring the baggage upstairs."
+            ]
+          }
+        }
+      ]
+    },
+    "90": {
+      "type": "coreference",
+      "examples": []
+    },
+    "91": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "女性会社員は、駅で男に腕をつかまれた。",
+            "駅の階段から引きずり落とされたそうになったが、逃げることができた。"
+          ],
+          "trg": {
+            "correct": [
+              "A female office worker got hold of her arm by a man at the station.",
+              "She got dragged out of the stairs, but was able to run away."
+            ],
+            "incorrect": [
+              "A female office worker got hold of her arm by a man at the station.",
+              "I got dragged out of the stairs, but was able to run away."
+            ]
+          }
+        }
+      ]
+    },
+    "92": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼の供述書には反省点が書いてあった。",
+            "それは、自分の友人を無理やり犯罪に引きずり込んだことだった。"
+          ],
+          "trg": {
+            "correct": [
+              "His affidavit had points of reflection.",
+              "It was to force his friend into crime."
+            ],
+            "incorrect": [
+              "His affidavit had points of reflection.",
+              "It was to force my friend into crime."
+            ]
+          }
+        }
+      ]
+    },
+    "93": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "政治家を扱うのは難しいです。",
+            "本音を言わないからです。"
+          ],
+          "trg": {
+            "correct": [
+              "It is difficult to deal with politicians.",
+              "It is because they do not say their real intention."
+            ],
+            "incorrect": [
+              "It is difficult to deal with politicians.",
+              "It is because he does not say his real intention."
+            ]
+          }
+        }
+      ]
+    },
+    "94": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "両親は、私にはやりたいことを何でも自由にさせた。",
+            "その結果、自由気ままな性格に育ってしまった。"
+          ],
+          "trg": {
+            "correct": [
+              "My parents made me do whatever I wanted freely.",
+              "As a result, I grew up with a selfish character."
+            ],
+            "incorrect": [
+              "My parents made me do whatever I wanted freely.",
+              "As a result, he grew up with a selfish character."
+            ]
+          }
+        }
+      ]
+    },
+    "95": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ある日、マリは太郎に、１日だけアルバイトを代わってほしいと頼んだ。",
+            "それを引き受けたの？"
+          ],
+          "trg": {
+            "correct": [
+              "One day Mari asked Taro that she wanted to change her part-time job only for one day.",
+              "Did he accept it?"
+            ],
+            "incorrect": [
+              "One day Mari asked Taro that she wanted to change her part-time job only for one day.",
+              "Did you accept it?"
+            ]
+          }
+        }
+      ]
+    },
+    "96": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は、条件面についての話し合いを社長と行った。",
+            "その結果、社長とやっと同意に達した。"
+          ],
+          "trg": {
+            "correct": [
+              "I have talked with the president about the terms and conditions.",
+              "As a result, I finally agreed the president."
+            ],
+            "incorrect": [
+              "I have talked with the president about the terms and conditions.",
+              "As a result, you finally agreed the president."
+            ]
+          }
+        }
+      ]
+    },
+    "97": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "そのままでは我々の理論に問題が生じたままです。",
+            "もう少し考え直してみましょうか。"
+          ],
+          "trg": {
+            "correct": [
+              "If there is no solution, the problem still remains in our theory.",
+              "We should think more about it. "
+            ],
+            "incorrect": [
+              "If there is no solution, the problem still remains in our theory.",
+              "You should think more about it. "
+            ]
+          }
+        }
+      ]
+    },
+    "98": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "上司は報告を求めています。",
+            "どんな結果を出しても報告して下さい。"
+          ],
+          "trg": {
+            "correct": [
+              "My boss needs report. ",
+              "Please report any results you made."
+            ],
+            "incorrect": [
+              "My boss needs report. ",
+              "Please report any results he made."
+            ]
+          }
+        }
+      ]
+    },
+    "99": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あなた宛に、加害者からお詫びの品が届きました。",
+            "品物は受け取れません。"
+          ],
+          "trg": {
+            "correct": [
+              "The perpetrator sent you an item of apology.",
+              "I can't receive his item."
+            ],
+            "incorrect": [
+              "The perpetrator sent you an item of apology.",
+              "I can't receive your item."
+            ]
+          }
+        }
+      ]
+    },
+    "100": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この週末に天文学の本を５冊読み終えた。",
+            "面白い本でしたか？"
+          ],
+          "trg": {
+            "correct": [
+              "I finished reading 5 books of astronomy this weekend.",
+              "Were they interesting books?"
+            ],
+            "incorrect": [
+              "I finished reading 5 books of astronomy this weekend.",
+              "Was it an interesting book?"
+            ]
+          }
+        }
+      ]
+    },
+    "101": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ぬいぐるみを買って、３つ彼にあげました。",
+            "次の日には、なくなっていました。"
+          ],
+          "trg": {
+            "correct": [
+              "I bought stuffed toys and gave three of them to him.",
+              "The next day, they were gone."
+            ],
+            "incorrect": [
+              "I bought stuffed toys and gave three of them to him.",
+              "The next day, it was gone."
+            ]
+          }
+        }
+      ]
+    },
+    "102": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ジャングルの中で、隊長は足に異変を感じた。",
+            "だんだん足がむずがゆくなって来た。"
+          ],
+          "trg": {
+            "correct": [
+              "In the jungle, the captain got a strange feeling on his feet.",
+              "His foot gradually became itchy."
+            ],
+            "incorrect": [
+              "In the jungle, the captain got a strange feeling on his feet.",
+              "My foot gradually became itchy."
+            ]
+          }
+        }
+      ]
+    },
+    "103": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は、会社の研修で新入社員を全員集めた。",
+            "研修施設に連れて行くためだった。"
+          ],
+          "trg": {
+            "correct": [
+              "I gathered all the new employees at company training.",
+              "It was to take them to the training facility."
+            ],
+            "incorrect": [
+              "I gathered all the new employees at company training.",
+              "It was to take me to the training facility."
+            ]
+          }
+        }
+      ]
+    },
+    "104": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "子どもたちが遊びたいって言ってる。",
+            "ディズニーランドに連れて行ってくれない？"
+          ],
+          "trg": {
+            "correct": [
+              "The kids say they want to play.",
+              "Can you take them to Disneyland?"
+            ],
+            "incorrect": [
+              "The kids say they want to play.",
+              "Can you take me to Disneyland?"
+            ]
+          }
+        }
+      ]
+    },
+    "105": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "太郎がTシャツを2枚脱いだ。",
+            "ハンガーに掛けた。"
+          ],
+          "trg": {
+            "correct": [
+              "Taro took off two T-shirts.",
+              "He put them on the hanger."
+            ],
+            "incorrect": [
+              "Taro took off two T-shirts.",
+              "He put it on the hanger."
+            ]
+          }
+        }
+      ]
+    },
+    "106": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "子どもたちの扱いに困っています。",
+            "話しかけるとすぐ泣くんです。"
+          ],
+          "trg": {
+            "correct": [
+              "I have some trouble dealing with my kids.",
+              "They start crying if I talk to them."
+            ],
+            "incorrect": [
+              "I have some trouble dealing with my kids.",
+              "She starts crying if I talk to her."
+            ]
+          }
+        }
+      ]
+    },
+    "107": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "春子が卒業したので、一緒に旅行した。",
+            "しかし、途中で喧嘩別れしてしまった。"
+          ],
+          "trg": {
+            "correct": [
+              "As Haruko graduated, we traveled together.",
+              "However, we broke up along the way."
+            ],
+            "incorrect": [
+              "As Haruko graduated, we traveled together.",
+              "However, I broke up along the way."
+            ]
+          }
+        }
+      ]
+    },
+    "108": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "大きな桃が2個もある。",
+            "じいさんのために持っていこう。"
+          ],
+          "trg": {
+            "correct": [
+              "There are two big peaches.",
+              "Let's bring them for the grandfather."
+            ],
+            "incorrect": [
+              "There are two big peaches.",
+              "Let's bring it for the grandfather."
+            ]
+          }
+        }
+      ]
+    },
+    "109": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼ら全員の共通の目標があります。",
+            "仕事に就きたいということです。"
+          ],
+          "trg": {
+            "correct": [
+              "They all have a common goal.",
+              "That means they want to get jobs."
+            ],
+            "incorrect": [
+              "They all have a common goal.",
+              "That means I want to get a job."
+            ]
+          }
+        }
+      ]
+    },
+    "110": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼、楽しそうでしたね。",
+            "また誘ってあげてね。"
+          ],
+          "trg": {
+            "correct": [
+              "He looked like he was having fun.",
+              "Please invite him again."
+            ],
+            "incorrect": [
+              "He looked like he was having fun.",
+              "Please invite me again."
+            ]
+          }
+        }
+      ]
+    },
+    "111": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私達は黙ってそこに立っていた。",
+            "何をしてよいのかわからなかったのだ。"
+          ],
+          "trg": {
+            "correct": [
+              "We stood there silently.",
+              "Because we did not know what to do."
+            ],
+            "incorrect": [
+              "We stood there silently.",
+              "Because I did not know what to do."
+            ]
+          }
+        }
+      ]
+    },
+    "112": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "2本の仕事は、今日が納期だ。",
+            "もう終わったかい。"
+          ],
+          "trg": {
+            "correct": [
+              "Today is the deadline for two jobs.",
+              "Have you already finished them?"
+            ],
+            "incorrect": [
+              "Today is the deadline for two jobs.",
+              "Have you already finished it?"
+            ]
+          }
+        }
+      ]
+    },
+    "113": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "登山者らは、山登りの最中、小川を見つけた。",
+            "そして、小川の水を飲みはじめた。"
+          ],
+          "trg": {
+            "correct": [
+              "The climbers found a brook during the mountain climbing.",
+              "Then they started drink water from the brook."
+            ],
+            "incorrect": [
+              "The climbers found a brook during the mountain climbing.",
+              "Then I started drink water from the brook."
+            ]
+          }
+        }
+      ]
+    },
+    "114": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "軍の幹部連中は、トップの方針に従った。",
+            "無条件でその計画に同意した。"
+          ],
+          "trg": {
+            "correct": [
+              "Military executives followed the Commander-in-chief's policy.",
+              "They agreed with the plan unconditionally."
+            ],
+            "incorrect": [
+              "Military executives followed the Commander-in-chief's policy.",
+              "I agreed with the plan unconditionally."
+            ]
+          }
+        }
+      ]
+    },
+    "115": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この不況で資金が足りません。",
+            "今は新事業を起こすべきではない。"
+          ],
+          "trg": {
+            "correct": [
+              "We are short of funds due to this recession.",
+              "We should not start a new business right now."
+            ],
+            "incorrect": [
+              "We are short of funds due to this recession.",
+              "I should not start a new business right now."
+            ]
+          }
+        }
+      ]
+    },
+    "116": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼が酒を呑むのを止めて下さい。",
+            "もう飲めません。"
+          ],
+          "trg": {
+            "correct": [
+              "Please stop him from drinking.",
+              "He can't drink any more."
+            ],
+            "incorrect": [
+              "Please stop him from drinking.",
+              "I can't drink any more."
+            ]
+          }
+        }
+      ]
+    },
+    "117": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ギャンブラー達は有り金をすべて使ってしまった。",
+            "100万円以上あった。"
+          ],
+          "trg": {
+            "correct": [
+              "The gamblers used all the money.",
+              "It was over 1 million yen."
+            ],
+            "incorrect": [
+              "The gamblers used all the money.",
+              "They were over 1 million yen."
+            ]
+          }
+        }
+      ]
+    },
+    "118": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "太郎の発音は、ちょっと間違いはあるけど、でも、楽しそうに話します。",
+            "おそらく英語は好きなのでしょう。"
+          ],
+          "trg": {
+            "correct": [
+              "Taro has a bit of mistakes in his pronunciation, but he looks fun talking.",
+              "Probably he likes English."
+            ],
+            "incorrect": [
+              "Taro has a bit of mistakes in his pronunciation, but he looks fun talking.",
+              "Probably I like English."
+            ]
+          }
+        }
+      ]
+    },
+    "119": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼はあなたの会社に資金を出さなかったことを後悔していると思いますよ。",
+            "なぜ今になって後悔するんだろう。"
+          ],
+          "trg": {
+            "correct": [
+              "I think the investor regrets not having funded your company.",
+              "Why is he regretting it now?"
+            ],
+            "incorrect": [
+              "I think the investor regrets not having funded your company.",
+              "Why are you regretting it now?"
+            ]
+          }
+        }
+      ]
+    },
+    "120": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "父は怒った顔をして私をちらっと見た。",
+            "そして話しかけてきた。"
+          ],
+          "trg": {
+            "correct": [
+              "My father glanced at me, with an angry face.",
+              "He then started talking to me."
+            ],
+            "incorrect": [
+              "My father glanced at me, with an angry face.",
+              "You then started talking to me."
+            ]
+          }
+        }
+      ]
+    },
+    "121": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "子どもたちは好奇心旺盛です。",
+            "知的な会話が好きなのです。"
+          ],
+          "trg": {
+            "correct": [
+              "Children are curious.",
+              "They like intellectual conversation."
+            ],
+            "incorrect": [
+              "Children are curious.",
+              "I like intellectual conversation."
+            ]
+          }
+        }
+      ]
+    },
+    "122": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "太郎は、顔色が悪いです。",
+            "寝た方が良い。"
+          ],
+          "trg": {
+            "correct": [
+              "Taro is pale.",
+              "He'd better sleep."
+            ],
+            "incorrect": [
+              "Taro is pale.",
+              "You'd better sleep."
+            ]
+          }
+        }
+      ]
+    },
+    "123": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "若者は遊んでばかりいないで仕事をした方がよい。",
+            "昇進を期待して一生懸命働くべきです。"
+          ],
+          "trg": {
+            "correct": [
+              "Young people should work, not to just play.",
+              "They should work hard in expectation of promotion."
+            ],
+            "incorrect": [
+              "Young people should work, not to just play.",
+              "You should work hard in expectation of promotion."
+            ]
+          }
+        }
+      ]
+    },
+    "124": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼女に頼んでもよいですか？",
+            "歌で子供を寝かしつけてほしいのです。"
+          ],
+          "trg": {
+            "correct": [
+              "Can I ask her a favor?",
+              "I want her to sing and let the child sleep."
+            ],
+            "incorrect": [
+              "Can I ask her a favor?",
+              "I want you to sing and let the child sleep."
+            ]
+          }
+        }
+      ]
+    },
+    "125": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼は、めったにないこの機会を最大限に利用すべきです。",
+            "自分の才能を示すために。"
+          ],
+          "trg": {
+            "correct": [
+              "He should make the most of this rare opportunity.",
+              "To show his talent."
+            ],
+            "incorrect": [
+              "He should make the most of this rare opportunity.",
+              "Tto show my talent."
+            ]
+          }
+        }
+      ]
+    },
+    "126": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼は家を売ってしまったらしい。",
+            "東京で自分の家を持ち続けることは難しいのですかね。"
+          ],
+          "trg": {
+            "correct": [
+              "He seems to have sold his house.",
+              "Is it difficult to keep his own house in Tokyo?"
+            ],
+            "incorrect": [
+              "He seems to have sold his house.",
+              "Is it difficult to keep my own house in Tokyo?"
+            ]
+          }
+        }
+      ]
+    },
+    "127": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼は若返ってみえる。",
+            "スクワットをして若返ったらしい。"
+          ],
+          "trg": {
+            "correct": [
+              "He seems to be rejuvenating.",
+              "He seems to be rejuvenating after squatting."
+            ],
+            "incorrect": [
+              "He seems to be rejuvenating.",
+              "She seems to be rejuvenating after squatting."
+            ]
+          }
+        }
+      ]
+    },
+    "128": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あの女子学生はふらふら歩いている。",
+            "まるで酔っているようだ。"
+          ],
+          "trg": {
+            "correct": [
+              "She is walking around.",
+              "It seems as if she is drunk."
+            ],
+            "incorrect": [
+              "She is walking around.",
+              "It seems as if you are drunk."
+            ]
+          }
+        }
+      ]
+    },
+    "129": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "妹はまた足をぶつけて帰ってきた。",
+            "もっと注意深くならなければならない。"
+          ],
+          "trg": {
+            "correct": [
+              "My sister came back, bumping her feet again.",
+              "She should be more careful."
+            ],
+            "incorrect": [
+              "My sister came back, bumping her feet again.",
+              "You should be more careful."
+            ]
+          }
+        }
+      ]
+    },
+    "130": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "我々の損失は、見かけよりもはるかに大きい。",
+            "もっと注意深く予測しなければならない。"
+          ],
+          "trg": {
+            "correct": [
+              "Our loss is much bigger than it seems.",
+              "We must predict more carefully."
+            ],
+            "incorrect": [
+              "Our loss is much bigger than it seems.",
+              "I must predict more carefully."
+            ]
+          }
+        }
+      ]
+    },
+    "131": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "父と私は、徒歩で行ってきました。",
+            "今度は自転車でそこに行くつもりです。"
+          ],
+          "trg": {
+            "correct": [
+              "My father and I went on foot.",
+              "We will go there by bike this time."
+            ],
+            "incorrect": [
+              "My father and I went on foot.",
+              "I will go there by bike this time."
+            ]
+          }
+        }
+      ]
+    },
+    "132": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "りんごとみかんを食べています。",
+            "とてもおいしいです。"
+          ],
+          "trg": {
+            "correct": [
+              "I am eating apples and mandarin oranges.",
+              "They are very delicious."
+            ],
+            "incorrect": [
+              "I am eating apples and mandarin oranges.",
+              "It is very delicious."
+            ]
+          }
+        }
+      ]
+    },
+    "133": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "うちの息子は、風邪を引いて学校を休んでいます。",
+            "今すぐに病院に行く必要がありますか。"
+          ],
+          "trg": {
+            "correct": [
+              "My son is absent from school catching a cold.",
+              "Does he have to go to the hospital right now?"
+            ],
+            "incorrect": [
+              "My son is absent from school catching a cold.",
+              "Do I have to go to the hospital right now?"
+            ]
+          }
+        }
+      ]
+    },
+    "134": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼女がそのニュースを聞いた直後のことです。",
+            "真っ青になりました。"
+          ],
+          "trg": {
+            "correct": [
+              "It was shortly after she heard the news.",
+              "She turned pale."
+            ],
+            "incorrect": [
+              "It was shortly after she heard the news.",
+              "It turned pale."
+            ]
+          }
+        }
+      ]
+    },
+    "135": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "再三候補者を招待しました。",
+            "しかし、決して来ませんでした。"
+          ],
+          "trg": {
+            "correct": [
+              "I invited the candidates many times.",
+              "However, they never came."
+            ],
+            "incorrect": [
+              "I invited the candidates many times.",
+              "However, I never came."
+            ]
+          }
+        }
+      ]
+    },
+    "136": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "2人の娘は、すっかり成長しました。",
+            "母乳で育てましたから。"
+          ],
+          "trg": {
+            "correct": [
+              "The two daughters have grown totally.",
+              "I brought them up with breast milk."
+            ],
+            "incorrect": [
+              "The two daughters have grown totally.",
+              "I brought her up with breast milk."
+            ]
+          }
+        }
+      ]
+    },
+    "137": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼のフランス語はどうですか？",
+            "ほとんど話せません。"
+          ],
+          "trg": {
+            "correct": [
+              "How is his French?",
+              "He can hardly speak."
+            ],
+            "incorrect": [
+              "How is his French?",
+              "I can hardly speak."
+            ]
+          }
+        }
+      ]
+    },
+    "138": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "太郎はオフィスにあるはずの時計を探したが、みつからなかった。",
+            "家に時計を忘れたからだ。"
+          ],
+          "trg": {
+            "correct": [
+              "Taro looked for a watch that was supposed to be in the office, but he could not find it.",
+              "Because he forgot his watch at home."
+            ],
+            "incorrect": [
+              "Taro looked for a watch that was supposed to be in the office, but he could not find it.",
+              "Because I forgot my watch at home."
+            ]
+          }
+        }
+      ]
+    },
+    "139": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "太郎はどこへいったのだ？",
+            "今は、時間を浪費すべきではないのに。"
+          ],
+          "trg": {
+            "correct": [
+              "Where did Taro go?",
+              "Now he should not waste his time."
+            ],
+            "incorrect": [
+              "Where did Taro go?",
+              "Now you should not waste your time."
+            ]
+          }
+        }
+      ]
+    },
+    "140": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "金持ちは、社会に還元するべきだ。",
+            "公共の福祉のために手を差しのべるべきだ。"
+          ],
+          "trg": {
+            "correct": [
+              "Rich people should return to society.",
+              "They should help for public welfare."
+            ],
+            "incorrect": [
+              "Rich people should return to society.",
+              "You should help for public welfare."
+            ]
+          }
+        }
+      ]
+    },
+    "141": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "そこにいた全員が壇上の一点を見つめていた。",
+            "その光景に注意を引かれた。"
+          ],
+          "trg": {
+            "correct": [
+              "Everyone was staring at a point on the stage.",
+              "I was drawn to that sight."
+            ],
+            "incorrect": [
+              "Everyone was staring at a point on the stage.",
+              "They were drawn to that sight."
+            ]
+          }
+        }
+      ]
+    },
+    "142": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "なぜ人間は再生機能がないのかと思うでしょうか。",
+            "実は、再生する力をもっています。"
+          ],
+          "trg": {
+            "correct": [
+              "Why do you think that humans have no regenerative function?",
+              "Actually, we have the power of reproduction."
+            ],
+            "incorrect": [
+              "Why do you think that humans have no regenerative function?",
+              "Actually, I have the power of reproduction."
+            ]
+          }
+        }
+      ]
+    },
+    "143": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼女との離婚は突然に聞こえたかもしれない。",
+            "しかし、数年悩んだあげくの決断だった。"
+          ],
+          "trg": {
+            "correct": [
+              "My divorce with her may sound all of sudden.",
+              "However, it was a decision after I worried for years."
+            ],
+            "incorrect": [
+              "My divorce with her may sound all of sudden.",
+              "However, it was a decision after she worried for years."
+            ]
+          }
+        }
+      ]
+    },
+    "144": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私の父親は、底なし胃袋です。",
+            "自分で食べたいだけ食べるという主義なのです。"
+          ],
+          "trg": {
+            "correct": [
+              "My father has a stomach with no limit.",
+              "It is his doctrine that he wants to eat as much he wants. "
+            ],
+            "incorrect": [
+              "My father has a stomach with no limit.",
+              "It is my doctrine that I want to eat as much I want. "
+            ]
+          }
+        }
+      ]
+    },
+    "145": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼の補佐をお願いしますので、後で、報告してください。",
+            "結果を報告させて下さい。"
+          ],
+          "trg": {
+            "correct": [
+              "I would like you to assist him, so please report to me later.",
+              "Let me report the result to you."
+            ],
+            "incorrect": [
+              "I would like you to assist him, so please report to me later.",
+              "Let him report the result to me."
+            ]
+          }
+        }
+      ]
+    },
+    "146": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "問題はたくさん残っている。",
+            "あのリーダーならきっと問題を解決できるはずだ。"
+          ],
+          "trg": {
+            "correct": [
+              "There are a lot of problems left.",
+              "That leader should surely be able to solve the problems."
+            ],
+            "incorrect": [
+              "There are a lot of problems left.",
+              "That leader should surely be able to solve the problem."
+            ]
+          }
+        }
+      ]
+    },
+    "147": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "母親は、なんとか津波を逃げ延びた。",
+            "しかし、津波で愛する娘を亡くしたので、悲しいどころではない。"
+          ],
+          "trg": {
+            "correct": [
+              "The mother escaped the tsunami somehow.",
+              "However, she lost her beloved daughter in the tsunami, a there is nothing more sad than this."
+            ],
+            "incorrect": [
+              "The mother escaped the tsunami somehow.",
+              "However, I lost my beloved daughter in the tsunami, a there is nothing more sad than this."
+            ]
+          }
+        }
+      ]
+    },
+    "148": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この二つの文章は言い方は互いに異なる。",
+            "しかし言おうとしていることは同じだ。"
+          ],
+          "trg": {
+            "correct": [
+              "These two sentences differ from each other in their way of saying.",
+              "But what they are trying to say is the same."
+            ],
+            "incorrect": [
+              "These two sentences differ from each other in their way of saying.",
+              "But what you are trying to say is the same."
+            ]
+          }
+        }
+      ]
+    },
+    "149": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は、高校時代の友達と会った。",
+            "それで彼らに海外旅行に行こうと提案した。"
+          ],
+          "trg": {
+            "correct": [
+              "I met friends from high school.",
+              "Then I suggested that we go abroad."
+            ],
+            "incorrect": [
+              "I met friends from high school.",
+              "Then they suggested that they go abroad."
+            ]
+          }
+        }
+      ]
+    },
+    "150": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この仕事は面白くて収入もいい。",
+            "が、その反面、忙しくて自分の時間がなかなか持てないという問題もある。"
+          ],
+          "trg": {
+            "correct": [
+              "This job is fun and income is also good.",
+              "However, there is also a problem that it is too busy to have time for myself."
+            ],
+            "incorrect": [
+              "This job is fun and income is also good.",
+              "However, the problem is that it is too busy to have time for himself."
+            ]
+          }
+        }
+      ]
+    },
+    "151": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は外国語を勉強している。",
+            "一つには、異文化学習が好きだからだ。"
+          ],
+          "trg": {
+            "correct": [
+              "I am studying foreign languages.",
+              "For one thing, I like cross-cultural learning."
+            ],
+            "incorrect": [
+              "I am studying foreign languages.",
+              "For one thing, he likes cross-cultural learning."
+            ]
+          }
+        }
+      ]
+    },
+    "152": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "購入物の返金ですか？",
+            "理由のいかんを問わず返金はしません。"
+          ],
+          "trg": {
+            "correct": [
+              "Are you looking for refund of the purchase?",
+              "We will not refund regardless of reason."
+            ],
+            "incorrect": [
+              "Are you looking for refund of the purchase?",
+              "I will not refund regardless of reason."
+            ]
+          }
+        }
+      ]
+    },
+    "153": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "日本は、官製不況が続いており、人々は辛い思いをしている。",
+            "自分について考えてみると、いくら働いてもお金が貯まらない。"
+          ],
+          "trg": {
+            "correct": [
+              "In Japan, government official depression continues, people are having a hard time.",
+              "If I think of myself, no matter how much I work, I can't save money."
+            ],
+            "incorrect": [
+              "In Japan, government official depression continues, people are having a hard time.",
+              "If you think of themselves, no matter how much they work, they can't save money."
+            ]
+          }
+        }
+      ]
+    },
+    "154": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "仮に手術が成功するとしても、父の体が元に戻ることはないだろう。",
+            "高齢ですからね。"
+          ],
+          "trg": {
+            "correct": [
+              "Even if the surgery is successful, my father will not be fine.",
+              "He is too old for that."
+            ],
+            "incorrect": [
+              "Even if the surgery is successful, my father will not be fine.",
+              "I am too old for that."
+            ]
+          }
+        }
+      ]
+    },
+    "155": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "驚いたことに、村田さんは会社を半年で辞めてしまった。",
+            "あんなに気にかけていたのに。"
+          ],
+          "trg": {
+            "correct": [
+              "To my surprise, Ms. Murata has left the company in half a year.",
+              "I thought of her so much."
+            ],
+            "incorrect": [
+              "To my surprise, Ms. Murata has left the company in half a year.",
+              "She thought of me so much."
+            ]
+          }
+        }
+      ]
+    },
+    "156": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼の演奏は聴けたものではない。",
+            "しかし満足げな顔をしている。"
+          ],
+          "trg": {
+            "correct": [
+              "His performance is so terrible, and I can't listen to it.",
+              "But he has satisfying face."
+            ],
+            "incorrect": [
+              "His performance is so terrible, and I can't listen to it.",
+              "But I have satisfying face."
+            ]
+          }
+        }
+      ]
+    },
+    "157": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "いくつかのタスクが続けてあるのですが、全部受けてもらえますか？",
+            "引き受けられるものではないです。"
+          ],
+          "trg": {
+            "correct": [
+              "We have several tasks in a row, and can you work on all of them?",
+              "I can't work on them."
+            ],
+            "incorrect": [
+              "We have several tasks in a row, and can you work on all of them?",
+              "I can't work on it."
+            ]
+          }
+        }
+      ]
+    },
+    "158": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "仕事が沢山彼に集中して、さぼりたくなるのは、理解できる。",
+            "しかし、もう少し真面目にこの問題に取り組んでくれないものだろうか。"
+          ],
+          "trg": {
+            "correct": [
+              "It is understandable that a lot of work concentrates on him and he wants to skip them.",
+              "But he should tackle on the problems more seriously. "
+            ],
+            "incorrect": [
+              "It is understandable that a lot of work concentrates on him and he wants to skip them.",
+              "But you should tackle on the problems more seriously. "
+            ]
+          }
+        }
+      ]
+    },
+    "159": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あなたは何でもできると豪語してました。",
+            "一人でやれるものならやってみろ！"
+          ],
+          "trg": {
+            "correct": [
+              "You were talking big, saying that you could do anything. ",
+              "Do it if you can do it just by yourself."
+            ],
+            "incorrect": [
+              "You were talking big, saying that you could do anything. ",
+              "Do it if he can do it just by himself."
+            ]
+          }
+        }
+      ]
+    },
+    "160": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あのタイからの留学生は、日本語を１年間勉強しただけでやめてしまった。",
+            "続けて勉強していればよかったのに。"
+          ],
+          "trg": {
+            "correct": [
+              "That foreign student from Thailand just stopped studying Japanese after a year of studying.",
+              "He should have continued studying."
+            ],
+            "incorrect": [
+              "That foreign student from Thailand just stopped studying Japanese after a year of studying.",
+              "You should have continued studying."
+            ]
+          }
+        }
+      ]
+    },
+    "161": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あなたは病気が手遅れになってしまった。",
+            "すぐ医者に診てもらったら簡単に治っていたのに。"
+          ],
+          "trg": {
+            "correct": [
+              "You are sick and is too late to recover.",
+              "You should have healed easily if you could see a doctor at once."
+            ],
+            "incorrect": [
+              "You are sick and is too late to recover.",
+              "I should have healed easily if I could see a doctor at once."
+            ]
+          }
+        }
+      ]
+    },
+    "162": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "先月は、何回か一緒に映画見に行ったよね。",
+            "先週見た映画、なんていう映画だったっけ？"
+          ],
+          "trg": {
+            "correct": [
+              "Last month we went to see a movie several times.",
+              "What movie did we see last week?"
+            ],
+            "incorrect": [
+              "Last month we went to see a movie several times.",
+              "What movie did you see last week?"
+            ]
+          }
+        }
+      ]
+    },
+    "163": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "先月は、何回か一緒に映画見に行ったけど、最初のやつが一番おもしろかった。",
+            "タイトルなんだっけ？"
+          ],
+          "trg": {
+            "correct": [
+              "Last month we went to see movies a couple of times together, but the first one was the most interesting.",
+              "What was the title?"
+            ],
+            "incorrect": [
+              "Last month we went to see movies a couple of times together, but the first one was the most interesting.",
+              "What were the titles?"
+            ]
+          }
+        }
+      ]
+    },
+    "164": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あの会社の社員は素晴らしい。",
+            " なぜならば、誰にでも親切だからだ。"
+          ],
+          "trg": {
+            "correct": [
+              "The employees of that company are wonderful. ",
+              "Because they are kind to everyone."
+            ],
+            "incorrect": [
+              "The employees of that company are wonderful. ",
+              "Because it is kind to everyone."
+            ]
+          }
+        }
+      ]
+    },
+    "165": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あのバッターの資質は十分だが、真剣味がたりない。",
+            "たとえ練習にしろ、真面目にやるべきだ。"
+          ],
+          "trg": {
+            "correct": [
+              "That batter's qualities are sufficient, but he is not serious enough.",
+              "Even if he practice, he should do it seriously."
+            ],
+            "incorrect": [
+              "That batter's qualities are sufficient, but he is not serious enough.",
+              "Even if you practice, you should do it seriously."
+            ]
+          }
+        }
+      ]
+    },
+    "166": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "本棚を２つ追加しないと本が収まらない。",
+            "しかし、問題は置くところがないことだ。"
+          ],
+          "trg": {
+            "correct": [
+              "I have to add two more bookshelves to shelve all the books. ",
+              "But the problem is that there is no place to put them."
+            ],
+            "incorrect": [
+              "I have to add two more bookshelves to shelve all the books. ",
+              "But the problem is that there is no place to put it."
+            ]
+          }
+        }
+      ]
+    },
+    "167": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "スニーカーのコレクションは、非常に大きい。",
+            "置くところがなくて困っています。"
+          ],
+          "trg": {
+            "correct": [
+              "The entire collection of sneakers is so huge.",
+              "I'm worried that there is no place to put it."
+            ],
+            "incorrect": [
+              "The entire collection of sneakers is so huge.",
+              "I'm worried that there is no place to put them."
+            ]
+          }
+        }
+      ]
+    },
+    "168": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼らの飲みっぷりには、驚きました。",
+            "５本の酒を全部空けてしまった。"
+          ],
+          "trg": {
+            "correct": [
+              "I was surprised at your way of drinking liquor. ",
+              "You emptied all of the five bottles."
+            ],
+            "incorrect": [
+              "I was surprised at your way of drinking liquor. ",
+              "I emptied all of the five bottles."
+            ]
+          }
+        }
+      ]
+    },
+    "169": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は思った。",
+            "日本語を短期間で習得するのなら、この学校をおいてほかにはない。"
+          ],
+          "trg": {
+            "correct": [
+              "I thought.",
+              "If I learn Japanese in a short period of time, there is no place other than this school."
+            ],
+            "incorrect": [
+              "I thought.",
+              "If you learn Japanese in a short period of time, there is no place other than this school."
+            ]
+          }
+        }
+      ]
+    },
+    "170": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は10試合続けて買った。",
+            "苦しい試合だったけど、楽しかった。"
+          ],
+          "trg": {
+            "correct": [
+              "I won 10 games in a row.",
+              "They were hard games, but were enjoyable."
+            ],
+            "incorrect": [
+              "I won 10 games in a row.",
+              "It was a hard game, but was enjoyable."
+            ]
+          }
+        }
+      ]
+    },
+    "171": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あなた方は当教会で挙式をご希望ですか？",
+            "当教会は、信者であるなしを問わず挙式をお引き受けいたします。"
+          ],
+          "trg": {
+            "correct": [
+              "Would you like to have a wedding ceremony at our church?",
+              "Our church accepts wedding ceremonies regardless of whether you are a believer or not."
+            ],
+            "incorrect": [
+              "Would you like to have a wedding ceremony at our church?",
+              "Our church accepts wedding ceremonies regardless of whether he is a believer or not."
+            ]
+          }
+        }
+      ]
+    },
+    "172": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あそこに倒れている人がいます。",
+            "今すぐ病院に連れて行こう。"
+          ],
+          "trg": {
+            "correct": [
+              "There is a person who is fallen down over there.",
+              "I will take her to the hospital now."
+            ],
+            "incorrect": [
+              "There is a person who is fallen down over there.",
+              "I will take you to the hospital now."
+            ]
+          }
+        }
+      ]
+    },
+    "173": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "クラシックもジャズもロックも、聞いてみればよい。",
+            "それなりに面白いものだ。"
+          ],
+          "trg": {
+            "correct": [
+              "Just listen to classical music, jazz and rock.",
+              "They are interesting as they are."
+            ],
+            "incorrect": [
+              "Just listen to classical music, jazz and rock.",
+              "It is interesting as it is."
+            ]
+          }
+        }
+      ]
+    },
+    "174": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ちょっとだけ顔を出してもらえませんか？",
+            "ちょっと顔を見せると、みんなが喜ぶので。"
+          ],
+          "trg": {
+            "correct": [
+              "Can you show up just a bit?",
+              "You just show up, and everyone will be pleased."
+            ],
+            "incorrect": [
+              "Can you show up just a bit?",
+              "I just show up, and everyone will be pleased."
+            ]
+          }
+        }
+      ]
+    },
+    "175": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この部屋にコンピュータがあるので、使って良いです。",
+            "ただし、部屋からは持ち出さないで下さい。"
+          ],
+          "trg": {
+            "correct": [
+              "There is a computer in this room, and you can use it.",
+              "However, please do not bring it out of the room."
+            ],
+            "incorrect": [
+              "There is a computer in this room, and you can use it.",
+              "However, please do not bring them out of the room."
+            ]
+          }
+        }
+      ]
+    },
+    "176": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "我々の研究室のメンバーが書いた論文ですが、データに間違いがあります。",
+            "この論文は書き直すべきだ。"
+          ],
+          "trg": {
+            "correct": [
+              "The paper written by some of our members in the laboratory has a mistake in the data.",
+              "We should rewrite this paper."
+            ],
+            "incorrect": [
+              "The paper written by some of our members in the laboratory has a mistake in the data.",
+              "He should rewrite this paper."
+            ]
+          }
+        }
+      ]
+    },
+    "177": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "うちの娘なんですが・・・。",
+            "薬を飲んだら、逆に熱が出たんです。"
+          ],
+          "trg": {
+            "correct": [
+              "It is about my daughter, ... ",
+              "When she took the medicine, the fever came out."
+            ],
+            "incorrect": [
+              "It is about my daughter, ... ",
+              "When I took the medicine, the fever came out."
+            ]
+          }
+        }
+      ]
+    },
+    "178": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "隣の家の子供がいたずらばかりするんです。",
+            "子供だからと言って許すわけにはいかない。"
+          ],
+          "trg": {
+            "correct": [
+              "The boy next door is always mischievous.",
+              "Because he is a child, I can not forgive him."
+            ],
+            "incorrect": [
+              "The boy next door is always mischievous.",
+              "Because you are a child, I can not forgive you."
+            ]
+          }
+        }
+      ]
+    },
+    "179": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "子供はみんなカレーライスが好きです。",
+            "寿司も好きです。"
+          ],
+          "trg": {
+            "correct": [
+              "Children all like curry rice.",
+              "They also like sushi."
+            ],
+            "incorrect": [
+              "Children all like curry rice.",
+              "I also like sushi."
+            ]
+          }
+        }
+      ]
+    },
+    "180": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "山田さんにはちょっと余分に働いてもらいました。",
+            "その代わりに特別手当てを受け取ってもらいました。"
+          ],
+          "trg": {
+            "correct": [
+              "Mr. Yamada got a bit extra work.",
+              "Instead, he received special treatment."
+            ],
+            "incorrect": [
+              "Mr. Yamada got a bit extra work.",
+              "Instead, I received special treatment."
+            ]
+          }
+        }
+      ]
+    },
+    "181": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "山内はよく知っている。",
+            "何も教えてくれない。"
+          ],
+          "trg": {
+            "correct": [
+              "Yamauchi knows well. ",
+              "But he doesn't tell you anything."
+            ],
+            "incorrect": [
+              "Yamauchi knows well. ",
+              "But you doesn't tell me anything."
+            ]
+          }
+        }
+      ]
+    },
+    "182": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "あの頑固親父には困っています。",
+            "何しろ一度言い出したら絶対に引き下がらないんだから。"
+          ],
+          "trg": {
+            "correct": [
+              "I am in trouble with that stubborn guy.",
+              "He will never withdraw if he says something."
+            ],
+            "incorrect": [
+              "I am in trouble with that stubborn guy.",
+              "I will never withdraw if I say something once."
+            ]
+          }
+        }
+      ]
+    },
+    "183": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "学生と教師の比率はいくつですか？",
+            "6対1です。"
+          ],
+          "trg": {
+            "correct": [
+              "What is the ratio of students to teachers?",
+              "It is 6 to 1. "
+            ],
+            "incorrect": [
+              "What is the ratio of students to teachers?",
+              "They are 6 to 1. "
+            ]
+          }
+        }
+      ]
+    },
+    "184": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "寝てしまったようだ。僕は何をしていたんだっけ？",
+            "テレビを見ていたんだっけ？"
+          ],
+          "trg": {
+            "correct": [
+              "It seems I fell asleep. What was I doing?",
+              "Was I watching TV?"
+            ],
+            "incorrect": [
+              "It seems I fell asleep. What was I doing?",
+              "Were you watching TV?"
+            ]
+          }
+        }
+      ]
+    },
+    "185": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この学校の留学生は、漢字を書けない。",
+            "それどころか、平仮名も満足に書けない。"
+          ],
+          "trg": {
+            "correct": [
+              "International students at this school can't write kanji.",
+              "They can't even write Hiragana satisfactorily."
+            ],
+            "incorrect": [
+              "International students at this school can't write kanji.",
+              "I can't even write Hiragana satisfactorily."
+            ]
+          }
+        }
+      ]
+    },
+    "186": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "都会の住人は賃貸住まいが多い。",
+            "車を買っても置く所がない。"
+          ],
+          "trg": {
+            "correct": [
+              "Dwellers in urban areas often rent housing.",
+              "There is no place to put even if you buy a car."
+            ],
+            "incorrect": [
+              "Dwellers in urban areas often rent housing.",
+              "There is no place to put even if we buy cars."
+            ]
+          }
+        }
+      ]
+    },
+    "187": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "かれは、よく旅行に行く。",
+            "旅行のたびにおみやげを買ってきてくれる。"
+          ],
+          "trg": {
+            "correct": [
+              "He often goes on a trip.",
+              "Every time he travel, he buys souvenirs."
+            ],
+            "incorrect": [
+              "He often goes on a trip.",
+              "Every time I travel, I buy souvenirs."
+            ]
+          }
+        }
+      ]
+    },
+    "188": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "このテーブルは、通常よりも高く、脚が長い。",
+            "確かに長いですね。"
+          ],
+          "trg": {
+            "correct": [
+              "This table is higher than usual, and legs are long.",
+              "It is certainly high."
+            ],
+            "incorrect": [
+              "This table is higher than usual, and legs are long.",
+              "They are certainly high."
+            ]
+          }
+        }
+      ]
+    },
+    "189": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ステージの設営のため、人を集めた。",
+            "すると、どこからともなくやって来た。"
+          ],
+          "trg": {
+            "correct": [
+              "I gathered people for the stage setup.",
+              "They came from everywhere."
+            ],
+            "incorrect": [
+              "I gathered people for the stage setup.",
+              "I came from everywhere."
+            ]
+          }
+        }
+      ]
+    },
+    "190": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "衣類をバッグに押しこんだ。",
+            "その結果、しわくちゃになってしまった。"
+          ],
+          "trg": {
+            "correct": [
+              "I pushed clothes into my bag.",
+              "As a result, they became wrinkled."
+            ],
+            "incorrect": [
+              "I pushed clothes into my bag.",
+              "As a result, it became wrinkled."
+            ]
+          }
+        }
+      ]
+    },
+    "191": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "おいしいそうなイチゴなので、たくさん買った。",
+            "ところが、腐っていた。"
+          ],
+          "trg": {
+            "correct": [
+              "The strawberries looked delicious, so I bought a lot.",
+              "However, they were rotten."
+            ],
+            "incorrect": [
+              "The strawberries looked delicious, so I bought a lot.",
+              "However, it was rotten."
+            ]
+          }
+        }
+      ]
+    },
+    "192": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼は最近会社をやめました。",
+            "というのも、新しい事業を始めたからです。"
+          ],
+          "trg": {
+            "correct": [
+              "He recently quit the company.",
+              "Because he started a new business."
+            ],
+            "incorrect": [
+              "He recently quit the company.",
+              "Because I started a new business."
+            ]
+          }
+        }
+      ]
+    },
+    "193": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼女は口に大きなエンドウ豆をくわえていました。",
+            "そのため、答えることが出来ませんでした。"
+          ],
+          "trg": {
+            "correct": [
+              "She put a big pea in her mouth.",
+              "Because of that, she could not answer."
+            ],
+            "incorrect": [
+              "She put a big pea in her mouth.",
+              "Because of that, I could not answer."
+            ]
+          }
+        }
+      ]
+    },
+    "194": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "君が書いた目の絵ですが、・・・",
+            "もっと大きく書いてください。"
+          ],
+          "trg": {
+            "correct": [
+              "It is about a picture of eyes that you wrote, ... ",
+              "Please draw it bigger."
+            ],
+            "incorrect": [
+              "It is about a picture of eyes that you wrote, ... ",
+              "Please draw them bigger."
+            ]
+          }
+        }
+      ]
+    },
+    "195": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "これらの薬はどれも苦い。",
+            "しかし、飲みやすいです。"
+          ],
+          "trg": {
+            "correct": [
+              "All these medicines are bitter.",
+              "But, they are easy to drink."
+            ],
+            "incorrect": [
+              "All these medicines are bitter.",
+              "But it is easy to drink."
+            ]
+          }
+        }
+      ]
+    },
+    "196": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "麻衣はできることなら京都から逃げ出したかった。",
+            "そして、誰一人知らないような市へ行ってしまいたかった。"
+          ],
+          "trg": {
+            "correct": [
+              "Mai wanted to run away from Kyoto if she could do it.",
+              "And she wanted to go to a city where no one knew."
+            ],
+            "incorrect": [
+              "Mai wanted to run away from Kyoto if she could do it.",
+              "And I wanted to go to a city where no one knew."
+            ]
+          }
+        }
+      ]
+    },
+    "197": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "美しいものが好きです。",
+            "感性にうったえてくるからです。"
+          ],
+          "trg": {
+            "correct": [
+              "I like beautiful things.",
+              "They appeal to my sensibility."
+            ],
+            "incorrect": [
+              "I like beautiful things.",
+              "It appeals to my sensibility."
+            ]
+          }
+        }
+      ]
+    },
+    "198": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この街に果物屋は、2件ある。",
+            "どこにありますか？"
+          ],
+          "trg": {
+            "correct": [
+              "There are two fruit shops in this town.",
+              "Where are they?"
+            ],
+            "incorrect": [
+              "There are two fruit shops in this town.",
+              "Where is it?"
+            ]
+          }
+        }
+      ]
+    },
+    "199": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "約４００社ある仙台市内のＩＴ企業にとっても、農業分野参入は飛躍のチャンスだ。",
+            "これまでは首都圏の下請けに甘んじることが多かった。"
+          ],
+          "trg": {
+            "correct": [
+              "For about 400 IT companies in Sendai City, entry into the agricultural sector is a chance for a leap forward.",
+              "In the past, they often subcontracted the works in the metropolitan area."
+            ],
+            "incorrect": [
+              "For about 400 IT companies in Sendai City, entry into the agricultural sector is a chance for a leap forward.",
+              "In the past, it often subcontracted the works in the metropolitan area."
+            ]
+          }
+        }
+      ]
+    },
+    "200": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "研究会は小さな農地を一体的に管理する。",
+            "大規模農場化する構想も描く。"
+          ],
+          "trg": {
+            "correct": [
+              "The study group manages small farmlands together.",
+              "It also makes a plan to make them big farms."
+            ],
+            "incorrect": [
+              "The study group manages small farmlands together.",
+              "It also makes a plan to make it a big farm."
+            ]
+          }
+        }
+      ]
+    },
+    "201": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "高齢者の住民が避難訓練をしました。",
+            "７グループに分かれ、徒歩や車いすで避難先を目指した。"
+          ],
+          "trg": {
+            "correct": [
+              "Elderly residents did evacuation drills.",
+              "They were divided into 7 groups, aiming for evacuation by walk or wheelchair."
+            ],
+            "incorrect": [
+              "Elderly residents did evacuation drills.",
+              "It was divided into 7 groups, aiming for evacuation by walk or wheelchair."
+            ]
+          }
+        }
+      ]
+    },
+    "202": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "国道３８号で渋滞が発生し、車が立ち往生している。",
+            "ひどい状況だ。"
+          ],
+          "trg": {
+            "correct": [
+              "A traffic jam occurred on Route No. 38, and a lot of cars are stuck.",
+              "It is terrible."
+            ],
+            "incorrect": [
+              "A traffic jam occurred on Route No. 38, and a lot of cars are stuck.",
+              "They are terrible."
+            ]
+          }
+        }
+      ]
+    },
+    "203": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "みなさんには、命を守るすべをさまざまな視点で考えてほしい。",
+            "そうやって生きていくのだ。"
+          ],
+          "trg": {
+            "correct": [
+              "I want everyone to think about protecting their lives from various perspectives.",
+              "That way we live."
+            ],
+            "incorrect": [
+              "I want everyone to think about protecting their lives from various perspectives.",
+              "That way I live."
+            ]
+          }
+        }
+      ]
+    },
+    "204": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "数十の競合会社が同時にある会社の秘密を盗むこともある。",
+            "加えて、ほぼ捕まらない。"
+          ],
+          "trg": {
+            "correct": [
+              "Dozens of competitors may steal a company's secret at the same time.",
+              "In addition, they are hardly caught."
+            ],
+            "incorrect": [
+              "Dozens of competitors may steal a company's secret at the same time.",
+              "In addition, it is hardly caught."
+            ]
+          }
+        }
+      ]
+    },
+    "205": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "誤った複数の情報で彼らを罠にかける。",
+            "電子盗難を捕える唯一の方法だ。"
+          ],
+          "trg": {
+            "correct": [
+              "Trap them with wrong pieces of information.",
+              "It's the only way to catch electronic theft."
+            ],
+            "incorrect": [
+              "Trap them with wrong pieces of information.",
+              "They are the only ways to catch electronic theft."
+            ]
+          }
+        }
+      ]
+    },
+    "206": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "君に魚を獲ることを教えましょう。",
+            "一生食べることに困らなくなります。"
+          ],
+          "trg": {
+            "correct": [
+              "I will teach you how to catch fish.",
+              "You will not have to worry about eating in your life."
+            ],
+            "incorrect": [
+              "I will teach you how to catch fish.",
+              "They will not have to worry about eating in your life."
+            ]
+          }
+        }
+      ]
+    },
+    "207": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私のインストラクターは、重要な役割を私に果たしてくれました。",
+            "救われました。"
+          ],
+          "trg": {
+            "correct": [
+              "My instructor has played an important role to me.",
+              "I was saved."
+            ],
+            "incorrect": [
+              "My instructor has played an important role to me.",
+              "It was saved."
+            ]
+          }
+        }
+      ]
+    },
+    "208": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "簡単な4つの法則です。",
+            "本当に簡単です。"
+          ],
+          "trg": {
+            "correct": [
+              "These are simple four laws.",
+              "They are really easy."
+            ],
+            "incorrect": [
+              "These are simple four laws.",
+              "It's really easy."
+            ]
+          }
+        }
+      ]
+    },
+    "209": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "その子供は児童養護施設に入っています。",
+            "両親に捨てられたからです。"
+          ],
+          "trg": {
+            "correct": [
+              "That child is in a child care facility.",
+              "Because his parents threw him away."
+            ],
+            "incorrect": [
+              "That child is in a child care facility.",
+              "Because the parents threw it away."
+            ]
+          }
+        }
+      ]
+    },
+    "210": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "子犬の訓練をしていたのですね。",
+            "先生のかわりに私が教えました。"
+          ],
+          "trg": {
+            "correct": [
+              "You trained a puppy.",
+              "Instead of the teacher I taught her."
+            ],
+            "incorrect": [
+              "You trained a puppy.",
+              "Instead of the teacher I taught them."
+            ]
+          }
+        }
+      ]
+    },
+    "211": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私はテニスをします。",
+            "でも、上手ではありません。"
+          ],
+          "trg": {
+            "correct": [
+              "I play tennis.",
+              "But, I am not good."
+            ],
+            "incorrect": [
+              "I play tennis.",
+              "But, it is not good."
+            ]
+          }
+        }
+      ]
+    },
+    "212": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼の名前を知っていますか？",
+            "日本語で書いてもらえますか？"
+          ],
+          "trg": {
+            "correct": [
+              "Do you know his name?",
+              "Can you write in Japanese?"
+            ],
+            "incorrect": [
+              "Do you know his name?",
+              "Can she write in Japanese?"
+            ]
+          }
+        }
+      ]
+    },
+    "213": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "清水さんはゴルフが下手です。",
+            "でも大好きです。"
+          ],
+          "trg": {
+            "correct": [
+              "Ms. Shimizu is poor at golf.",
+              "But she loves it."
+            ],
+            "incorrect": [
+              "Ms. Shimizu is poor at golf.",
+              "But I love it."
+            ]
+          }
+        }
+      ]
+    },
+    "214": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "くまのぬいぐるみを買いにお店に行きました。",
+            "でも、そこにはありませんでした。"
+          ],
+          "trg": {
+            "correct": [
+              "I went to the shop to buy a stuffed animal.",
+              "But it was not there."
+            ],
+            "incorrect": [
+              "I went to the shop to buy a stuffed animal.",
+              "But I was not there."
+            ]
+          }
+        }
+      ]
+    },
+    "215": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼は、開封済みでテーブルの上にあった薄紅色の厚手の便せんを投げてよこした。",
+            "便せんに日付はなく、署名もなかった。　"
+          ],
+          "trg": {
+            "correct": [
+              "He threw over a sheet of thick, pink-tinted note-paper which had been lying open upon the table.",
+              "The note was undated, and without signature."
+            ],
+            "incorrect": [
+              "He threw over a sheet of thick, pink-tinted note-paper which had been lying open upon the table.",
+              "A note was undated, and without signature."
+            ]
+          }
+        }
+      ]
+    },
+    "216": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "この手紙を書いたのはドイツ人だ。",
+            "フランス人やロシア人なら、このように書くまい。"
+          ],
+          "trg": {
+            "correct": [
+              "The man who wrote the note is a German.",
+              "A Frenchman or Russian could not have written that."
+            ],
+            "incorrect": [
+              "The man who wrote the note is a German.",
+              "The Frenchman or Russian could not have written that."
+            ]
+          }
+        }
+      ]
+    },
+    "217": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "これは、私の写真だ。",
+            "二人で撮った写真なのです。"
+          ],
+          "trg": {
+            "correct": [
+              "This is my photograph.",
+              "We were both in the photograph."
+            ],
+            "incorrect": [
+              "This is my photograph.",
+              "We were both in a photograph."
+            ]
+          }
+        }
+      ]
+    },
+    "218": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "中にはサープリスを着た牧師だけだった。",
+            "牧師は何やら二人をいさめているようだった。"
+          ],
+          "trg": {
+            "correct": [
+              "There was only a surpliced clergyman.",
+              "The clergyman seemed to be expostulating with them."
+            ],
+            "incorrect": [
+              "There was only a surpliced clergyman.",
+              "A clergyman seemed to be expostulating with them."
+            ]
+          }
+        }
+      ]
+    },
+    "219": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "君が入ってきたとたんにね、君が吸ってる葉巻の匂いがしたんだよ。",
+            "ある、きわめて高価な葉巻だ。"
+          ],
+          "trg": {
+            "correct": [
+              "As you came in I caught the odour of the cigar you are smoking.",
+              "I know an expensive cigar."
+            ],
+            "incorrect": [
+              "As you came in I caught the odour of the cigar you are smoking.",
+              "I know the expensive cigar."
+            ]
+          }
+        }
+      ]
+    },
+    "220": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "指に紐を結んでいる。",
+            "結び目をほどける？"
+          ],
+          "trg": {
+            "correct": [
+              "I have a string on my finger.",
+              "Can you undo the knot?"
+            ],
+            "incorrect": [
+              "I have a string on my finger.",
+              "Can you undo a knot?"
+            ]
+          }
+        }
+      ]
+    },
+    "221": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "昨日の市場では、卵は1ダースで28セントだった。",
+            "だから、昨日卵を買ったわけだ。"
+          ],
+          "trg": {
+            "correct": [
+              "Yesterday eggs dropped in the market to twenty-eight cents per dozen.",
+              "So, he bought eggs yesterday."
+            ],
+            "incorrect": [
+              "Yesterday eggs dropped in the market to twenty-eight cents per dozen.",
+              "So, he bought the eggs yesterday."
+            ]
+          }
+        }
+      ]
+    },
+    "222": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "路面電車に乗った。",
+            "シートはすべて埋まっていた。"
+          ],
+          "trg": {
+            "correct": [
+              "We boarded the street car.",
+              "We found the seats all occupied."
+            ],
+            "incorrect": [
+              "We boarded the street car.",
+              "We found seats all occupied."
+            ]
+          }
+        }
+      ]
+    },
+    "223": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "車両の中ほどに、初老の男性が座っていた。",
+            "男はけっして席を譲ろうとしなかった。"
+          ],
+          "trg": {
+            "correct": [
+              "About the middle of the car there sat an elderly man.",
+              "The man resolutely retained his place."
+            ],
+            "incorrect": [
+              "About the middle of the car there sat an elderly man.",
+              "A man resolutely retained his place."
+            ]
+          }
+        }
+      ]
+    },
+    "224": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ある日のこと、オオカミは、群とはぐれて迷子になった仔ヒツジと出会った。",
+            "オオカミは子羊を食べる権利を正当化するいくつかの理由を見つけようとしました。"
+          ],
+          "trg": {
+            "correct": [
+              "The wolf, meeting with a lamb astray from the fold.",
+              "The wolf tried to find some plea to justify the right to eat the lamb."
+            ],
+            "incorrect": [
+              "The wolf, meeting with a lamb astray from the fold.",
+              "The wolf tried to find some plea to justify the right to eat a lamb."
+            ]
+          }
+        }
+      ]
+    },
+    "225": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "そこへいきなり、ピンクの目をした白うさぎが近くを走ってきて、チョッキのポケットから時計を取り出したのです。",
+            "チョッキのポケットなんかがあるうさぎはこれまで見たことがありませんでした。"
+          ],
+          "trg": {
+            "correct": [
+              "Suddenly a white rabbit with pink eyes ran close by me, and took a watch out of its a waistcoat-pocket.",
+              "I had never before seen a rabbit with a waistcoat-pocket."
+            ],
+            "incorrect": [
+              "Suddenly a white rabbit with pink eyes ran close by me, and took a watch out of its a waistcoat-pocket.",
+              "I had never before seen the rabbit with a waistcoat-pocket."
+            ]
+          }
+        }
+      ]
+    },
+    "226": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼女は通りすがりに、棚の一つからびんを手にとってみました。",
+            "びんには「マーマレード」というラベルがはってあります。"
+          ],
+          "trg": {
+            "correct": [
+              "She took down a jar from one of the shelves as she passed.",
+              "The jar was labelled `ORANGE MARMALADE'."
+            ],
+            "incorrect": [
+              "She took down a jar from one of the shelves as she passed.",
+              "A jar was labelled `ORANGE MARMALADE'."
+            ]
+          }
+        }
+      ]
+    },
+    "227": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ねこってコウモリ食べる？",
+            "ねこは、コウモリを食べます。"
+          ],
+          "trg": {
+            "correct": [
+              "Do cats eat bats?",
+              "Cats do eat bats."
+            ],
+            "incorrect": [
+              "Do cats eat bats?",
+              "The cats do eat bats."
+            ]
+          }
+        }
+      ]
+    },
+    "228": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "四回のコンサートを準備したのは委員会のミスだったと彼は言った。",
+            "加えて、アーティストが良くない。"
+          ],
+          "trg": {
+            "correct": [
+              "The committee had made a mistake in arranging for four concerts.",
+              "In addition, the artists are not really good."
+            ],
+            "incorrect": [
+              "The committee had made a mistake in arranging for four concerts.",
+              "In addition, artists are not really good."
+            ]
+          }
+        }
+      ]
+    },
+    "229": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "カルテットは到着しつつあった。",
+            "チェロ奏者とビオラ奏者が、すでに来ていた。"
+          ],
+          "trg": {
+            "correct": [
+              "The quartet was arriving.",
+              "The cello and the viola had already come."
+            ],
+            "incorrect": [
+              "The quartet was arriving.",
+              "A cello and a viola had already come."
+            ]
+          }
+        }
+      ]
+    },
+    "230": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "国じゅうの妖女が、のこらず呼び出され、その数は、7人でした。",
+            "仲間一同が、洗礼式のために、王様のお城に集まりました。"
+          ],
+          "trg": {
+            "correct": [
+              "There were seven fairies that they could find in the whole kingdom.",
+              "The company gathered at the King's palace for the christening. "
+            ],
+            "incorrect": [
+              "There were seven fairies that they could find in the whole kingdom.",
+              "A company gathered at the King's palace for the christening. "
+            ]
+          }
+        }
+      ]
+    },
+    "231": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "おしまいにはいったのは、のこらずが金ずくめのきらきらしいへやでした。",
+            "部屋が金のベッドやカーテンで埋め尽くされていました。"
+          ],
+          "trg": {
+            "correct": [
+              "Finally, he came into a gilded chamber.",
+              "The room is filled with a golden bed and curtains. "
+            ],
+            "incorrect": [
+              "Finally, he came into a gilded chamber.",
+              "A room is filled with a golden bed and curtains. "
+            ]
+          }
+        }
+      ]
+    },
+    "232": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ソファのそばには木製の椅子がある。",
+            "レンズとピンセットが椅子に乗っている。"
+          ],
+          "trg": {
+            "correct": [
+              "Beside the couch was a wooden chair.",
+              "A lens and a forceps was lying upon the seat."
+            ],
+            "incorrect": [
+              "Beside the couch was a wooden chair.",
+              "A lens and a forceps was lying upon a seat."
+            ]
+          }
+        }
+      ]
+    },
+    "233": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "マリアは、お茶の準備をしていた。",
+            "キッチンは真新しかった。"
+          ],
+          "trg": {
+            "correct": [
+              "Maria was preparing for women's tea.",
+              "The kitchen was spick and span."
+            ],
+            "incorrect": [
+              "Maria was preparing for women's tea.",
+              "A kitchen was spick and span."
+            ]
+          }
+        }
+      ]
+    },
+    "234": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "今回は、彼が待ち望んだ機会が訪れたのである。",
+            "控えめな装いの若い女性が、ショーウィンドウの前に立っていました。"
+          ],
+          "trg": {
+            "correct": [
+              "This time the opportunity presented that he was looking for.",
+              "A young woman of a modest guise was standing before a show window."
+            ],
+            "incorrect": [
+              "This time the opportunity presented that he was looking for.",
+              "The young woman of a modest guise was standing before a show window."
+            ]
+          }
+        }
+      ]
+    },
+    "235": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "昨夜、君の左の手の指のあたりに、白いチョークがついていた。",
+            "今日、ビリヤードをプレーする時に、キューのすべりをよくするために、チョークをつけた。"
+          ],
+          "trg": {
+            "correct": [
+              "Last night, you had chalk between your left finger and thumb.",
+              "You put chalk when you play billiards, to steady the cue."
+            ],
+            "incorrect": [
+              "Last night, you had chalk between your left finger and thumb.",
+              "You put the chalk when you play billiards, to steady the cue."
+            ]
+          }
+        }
+      ]
+    },
+    "236": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "新しく来た人の中に2人の若い男がいた。",
+            "2人はおたがいに手錠でつながれていた。"
+          ],
+          "trg": {
+            "correct": [
+              "Among the newcomers were two young men.",
+              "The two were handcuffed together."
+            ],
+            "incorrect": [
+              "Among the newcomers were two young men.",
+              "Two were handcuffed together."
+            ]
+          }
+        }
+      ]
+    },
+    "237": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "もうおかわりは結構です。",
+            "もう食べられません。"
+          ],
+          "trg": {
+            "correct": [
+              "I am good.",
+              "I can't eat any more."
+            ],
+            "incorrect": [
+              "I am good.",
+              "He can't eat any more."
+            ]
+          }
+        }
+      ]
+    },
+    "238": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は、フランス語の文法が覚えられません。",
+            "おそらくフランス語は苦手なのでしょう。"
+          ],
+          "trg": {
+            "correct": [
+              "I can't memorize French grammar.",
+              "Probably I am not good at French."
+            ],
+            "incorrect": [
+              "I can't memorize French grammar.",
+              "Probably we are not good at French."
+            ]
+          }
+        }
+      ]
+    },
+    "239": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は、彼と喧嘩別れしたことを未だに後悔しています。",
+            "なぜ今になって後悔するんだろう。"
+          ],
+          "trg": {
+            "correct": [
+              "I still regret having broken up with him.",
+              "Why are you regretting it now?"
+            ],
+            "incorrect": [
+              "I still regret having broken up with him.",
+              "Why is he regretting it now?"
+            ]
+          }
+        }
+      ]
+    },
+    "240": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は正しくて、彼は間違っていると思う",
+            "話したいことがあります。"
+          ],
+          "trg": {
+            "correct": [
+              "I think I am right and he is wrong.",
+              "We need to talk."
+            ],
+            "incorrect": [
+              "I think I am right and he is wrong.",
+              "He needs to talk."
+            ]
+          }
+        }
+      ]
+    },
+    "241": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "子供達のする話は面白い。",
+            "そして、可笑しい。"
+          ],
+          "trg": {
+            "correct": [
+              "My children's story about his mother is enjoyable.",
+              "And it's funny, too."
+            ],
+            "incorrect": [
+              "My children's story about his mother is enjoyable.",
+              "And she is funny, too."
+            ]
+          }
+        }
+      ]
+    },
+    "242": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "顔色が悪いですよ。",
+            "家に帰ったほうが良いですよ。"
+          ],
+          "trg": {
+            "correct": [
+              "You look so bad.",
+              "You should go home now."
+            ],
+            "incorrect": [
+              "You look so bad.",
+              "He should go home now."
+            ]
+          }
+        }
+      ]
+    },
+    "243": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "仕事ばかりしていないで遊びもした方がよい。",
+            "その方が後で昇進しますよ。"
+          ],
+          "trg": {
+            "correct": [
+              "You should also play, not to just work.",
+              "That way, you will to get promotion later."
+            ],
+            "incorrect": [
+              "You should also play, not to just work.",
+              "That way, they will to get promotion later."
+            ]
+          }
+        }
+      ]
+    },
+    "244": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼がやっている仕事を私にやらせてもらえませんか？",
+            "自分のポテンシャルを試したいのです。"
+          ],
+          "trg": {
+            "correct": [
+              "Could you let me do the work he is doing?",
+              "I would like to try out my potential."
+            ],
+            "incorrect": [
+              "Could you let me do the work he is doing?",
+              "I would like to try out his potential."
+            ]
+          }
+        }
+      ]
+    },
+    "245": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "どうしてこのような間違いを見逃したのですか？",
+            "もっと注意深くならなければならない。"
+          ],
+          "trg": {
+            "correct": [
+              "Why did you miss such a mistake?",
+              "You should be more careful."
+            ],
+            "incorrect": [
+              "Why did you miss such a mistake?",
+              "She should be more careful."
+            ]
+          }
+        }
+      ]
+    },
+    "246": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "ピクルスを食べています。",
+            "とても酸っぱいです。"
+          ],
+          "trg": {
+            "correct": [
+              "I am eating a pickle.",
+              "It is very sour."
+            ],
+            "incorrect": [
+              "I am eating a pickle.",
+              "They are very sour."
+            ]
+          }
+        }
+      ]
+    },
+    "247": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "私は、インフルエンザで会社を休んでいます。",
+            "今すぐにお医者さんに診てもらう必要がありますか。"
+          ],
+          "trg": {
+            "correct": [
+              "I am absent from work having flu.",
+              "Do I have to go to see a doctor right now?"
+            ],
+            "incorrect": [
+              "I am absent from work having flu.",
+              "Does he have to go to see a doctor right now?"
+            ]
+          }
+        }
+      ]
+    },
+    "248": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "人間はコミュニケーションできる唯一の動物です。",
+            "脳を使って話すことができます。"
+          ],
+          "trg": {
+            "correct": [
+              "Humans are the only animals capable of communication",
+              "We can talk using the brain."
+            ],
+            "incorrect": [
+              "Humans are the only animals capable of communication",
+              "You can talk using the brain."
+            ]
+          }
+        }
+      ]
+    },
+    "249": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "彼の演奏には笑いがこみ上げてくるくらいひどい。",
+            "しかし満足している。"
+          ],
+          "trg": {
+            "correct": [
+              "His performance is so terrible that it makes me laugh.",
+              "But I'm satisfied."
+            ],
+            "incorrect": [
+              "His performance is so terrible that it makes me laugh.",
+              "But he is satisfied."
+            ]
+          }
+        }
+      ]
+    },
+    "250": {
+      "type": "coreference",
+      "examples": [
+        {
+          "src": [
+            "その仕事を完成まで受けてもらえますか？",
+            "お引き受けできません。"
+          ],
+          "trg": {
+            "correct": [
+              "Can you work on the take until completion?",
+              "I can't work on it."
+            ],
+            "incorrect": [
+              "Can you work on the take until completion?",
+              "I can't work on them."
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

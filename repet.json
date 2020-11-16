@@ -1,0 +1,2705 @@
+[
+  {
+    "1": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "京の都に夜な夜な鬼が出た。",
+            "人々は鬼におびえた。"
+          ],
+          "trg": {
+            "correct": [
+              "Demons appeared in Kyoto every night.",
+              "People feared the demons."
+            ],
+            "incorrect": [
+              "Demons appeared in Kyoto every night.",
+              "People feared the devils."
+            ]
+          }
+        },
+        {
+          "src": [
+            "京の都に夜な夜な鬼が出た。",
+            "人々は鬼におびえた。"
+          ],
+          "trg": {
+            "correct": [
+              "Devils appeared in Kyoto every night.",
+              "People feared the devils."
+            ],
+            "incorrect": [
+              "Devils appeared in Kyoto every night.",
+              "People feared the demons."
+            ]
+          }
+        }
+      ]
+    },
+    "2": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "最近、家でネズミを見たんですよ。",
+            "ですが、家の猫がついに昨日ネズミを捕まえました。"
+          ],
+          "trg": {
+            "correct": [
+              "I saw a rat in the house recently.",
+              "But our cat finally caught the rat yesterday."
+            ],
+            "incorrect": [
+              "I saw a rat in the house recently.",
+              "But our cat finally caught the mouse yesterday."
+            ]
+          }
+        },
+        {
+          "src": [
+            "最近、家でネズミを見たんですよ。",
+            "ですが、家の猫がついに昨日ネズミを捕まえました。"
+          ],
+          "trg": {
+            "correct": [
+              "I saw a mouse in the house recently.",
+              "But our cat finally caught the mouse yesterday."
+            ],
+            "incorrect": [
+              "I saw a mouse in the house recently.",
+              "But our cat finally caught the rat yesterday."
+            ]
+          }
+        }
+      ]
+    },
+    "3": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "牧師は教会の鐘を鳴らしました。",
+            "鐘の音はそこら中に響き渡りました。"
+          ],
+          "trg": {
+            "correct": [
+              "The pastor rang the bell of the church.",
+              "The sound of the bell resounded through the area."
+            ],
+            "incorrect": [
+              "The pastor rang the bell of the church.",
+              "The sound of the chime resounded through the area."
+            ]
+          }
+        },
+        {
+          "src": [
+            "牧師は教会の鐘を鳴らしました。",
+            "鐘の音はそこら中に響き渡りました。"
+          ],
+          "trg": {
+            "correct": [
+              "The pastor rang the chime of the church.",
+              "The sound of the chime resounded through the area."
+            ],
+            "incorrect": [
+              "The pastor rang the chime of the church.",
+              "The sound of the bell resounded through the area."
+            ]
+          }
+        }
+      ]
+    },
+    "4": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "次のセッションでは笛と太鼓のどちらをやりたい？",
+            "笛を吹きたいな。"
+          ],
+          "trg": {
+            "correct": [
+              "Which do you want to do in the next session, a drum or a whistle?",
+              "I want to play the whistle."
+            ],
+            "incorrect": [
+              "Which do you want to do in the next session, a drum or a whistle?",
+              "I want to play the flute."
+            ]
+          }
+        },
+        {
+          "src": [
+            "次のセッションでは笛と太鼓のどちらをやりたい？",
+            "笛を吹きたいな。"
+          ],
+          "trg": {
+            "correct": [
+              "Which do you want to do in the next session, a drum or a flute?",
+              "I want to play the flute."
+            ],
+            "incorrect": [
+              "Which do you want to do in the next session, a drum or a flute?",
+              "I want to play the whistle."
+            ]
+          }
+        }
+      ]
+    },
+    "5": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "おいしい豆が食べたいなあ。",
+            "君に豆を煮てあげよう。"
+          ],
+          "trg": {
+            "correct": [
+              "I wanna eat delicious beans.",
+              "I'll boil you the beans."
+            ],
+            "incorrect": [
+              "I wanna eat delicious beans.",
+              "I'll boil you the peas."
+            ]
+          }
+        },
+        {
+          "src": [
+            "おいしい豆が食べたいなあ。",
+            "君に豆を煮てあげよう。"
+          ],
+          "trg": {
+            "correct": [
+              "I wanna eat delicious peas.",
+              "I'll boil you the peas."
+            ],
+            "incorrect": [
+              "I wanna eat delicious peas.",
+              "I'll boil you the beans."
+            ]
+          }
+        }
+      ]
+    },
+    "6": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "オーストリア最も有名な芸術家の100年前の絵が見つかった。",
+            "その絵は芸術家の作品を展示する回顧展に入る予定である。"
+          ],
+          "trg": {
+            "correct": [
+              "A 100-year-old drawing by one of Austria’s most celebrated artists has come out of hiding.",
+              "The drawing will now be included in a retrospective showcasing the works of the artist."
+            ],
+            "incorrect": [
+              "A 100-year-old drawing by one of Austria’s most celebrated artists has come out of hiding.",
+              "The painting will now be included in a retrospective showcasing the works of the artist."
+            ]
+          }
+        },
+        {
+          "src": [
+            "オーストリア最も有名な芸術家の100年前の絵が見つかった。",
+            "その絵は芸術家の作品を展示する回顧展に入る予定である。"
+          ],
+          "trg": {
+            "correct": [
+              "A 100-year-old painting by one of Austria’s most celebrated artists has come out of hiding.",
+              "The painting will now be included in a retrospective showcasing the works of the artist."
+            ],
+            "incorrect": [
+              "A 100-year-old painting by one of Austria’s most celebrated artists has come out of hiding.",
+              "The drawing will now be included in a retrospective showcasing the works of the artist."
+            ]
+          }
+        }
+      ]
+    },
+    "7": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "このあたりは麦の農家がたくさんあるんですよ。",
+            "近々、麦の収穫の時期です。"
+          ],
+          "trg": {
+            "correct": [
+              "There are many wheat farmers around here.",
+              "It will be the season of the wheat harvest soon. "
+            ],
+            "incorrect": [
+              "There are many wheat farmers around here.",
+              "It will be the season of the barley harvest soon. "
+            ]
+          }
+        },
+        {
+          "src": [
+            "このあたりは麦の農家がたくさんあるんですよ。",
+            "近々、麦の収穫の時期です。"
+          ],
+          "trg": {
+            "correct": [
+              "There are many barley farmers around here.",
+              "It will be the season of the barley harvest soon. "
+            ],
+            "incorrect": [
+              "There are many barley farmers around here.",
+              "It will be the season of the wheat harvest soon. "
+            ]
+          }
+        }
+      ]
+    },
+    "8": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "先週末に家具屋で見た素敵な椅子が忘れられなかったんだ。",
+            "インターネットで同じ椅子を探して注文してしまったよ。"
+          ],
+          "trg": {
+            "correct": [
+              "It was hard to forget the fabulous chair that I saw in the furniture store last weekend.",
+              "I've searched for the same chair on the internet and ordered it. "
+            ],
+            "incorrect": [
+              "It was hard to forget the fabulous chair that I saw in the furniture store last weekend.",
+              "I've searched for the same stool on the internet and ordered it. "
+            ]
+          }
+        },
+        {
+          "src": [
+            "先週末に家具屋で見た素敵な椅子が忘れられなかったんだ。",
+            "インターネットで同じ椅子を探して注文してしまったよ。"
+          ],
+          "trg": {
+            "correct": [
+              "It was hard to forget the fabulous stool that I saw in the furniture store last weekend.",
+              "I've searched for the same stool on the internet and ordered it. "
+            ],
+            "incorrect": [
+              "It was hard to forget the fabulous stool that I saw in the furniture store last weekend.",
+              "I've searched for the same chair on the internet and ordered it. "
+            ]
+          }
+        }
+      ]
+    },
+    "9": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "私は何年もこの森を守っているものです。",
+            "なぜこの森と共に生きようと思ったのですか？"
+          ],
+          "trg": {
+            "correct": [
+              "I am the man who keeps this forest.",
+              "Why did you decided to live with this forest?"
+            ],
+            "incorrect": [
+              "I am the man who keeps this forest.",
+              "Why did you decided to live with this grove?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "私は何年もこの森を守っているものです。",
+            "なぜこの森と共に生きようと思ったのですか？"
+          ],
+          "trg": {
+            "correct": [
+              "I am the man who keeps this grove.",
+              "Why did you decided to live with this grove?"
+            ],
+            "incorrect": [
+              "I am the man who keeps this grove.",
+              "Why did you decided to live with this forest?"
+            ]
+          }
+        }
+      ]
+    },
+    "10": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この貝のサラダ、とてもおいしいですね。",
+            "ありがとうございます。ここら辺の海でとれた新鮮な貝を使っていますからね。"
+          ],
+          "trg": {
+            "correct": [
+              "This shellfish salad is so delicious.",
+              "Thank you, and we use fresh shellfishes caught at the seaside near here.  　 　"
+            ],
+            "incorrect": [
+              "This shellfish salad is so delicious.",
+              "Thank you, and we use fresh conches caught at the seaside near here.  　 　"
+            ]
+          }
+        },
+        {
+          "src": [
+            "この貝のサラダ、とてもおいしいですね。",
+            "ありがとうございます。ここら辺の海でとれた新鮮な貝を使っていますからね。"
+          ],
+          "trg": {
+            "correct": [
+              "This conch salad is so delicious.",
+              "Thank you, and we use fresh conches caught at the seaside near here.  　 　"
+            ],
+            "incorrect": [
+              "This conch salad is so delicious.",
+              "Thank you, and we use fresh shellfishes caught at the seaside near here.  　 　"
+            ]
+          }
+        }
+      ]
+    },
+    "11": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "来週の土曜に、知り合いが育てている馬を見せてもらうことになってます。",
+            "それはいいですね。その馬には乗るんですか？"
+          ],
+          "trg": {
+            "correct": [
+              "I'm going to see a horse that my friend is breeding next Saturday.",
+              "Cool. Are you gonna get on the horse?"
+            ],
+            "incorrect": [
+              "I'm going to see a horse that my friend is breeding next Saturday.",
+              "Cool. Are you gonna get on the pony?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "来週の土曜に、知り合いが育てている馬を見せてもらうことになってます。",
+            "それはいいですね。その馬には乗るんですか？"
+          ],
+          "trg": {
+            "correct": [
+              "I'm going to see a pony that my friend is breeding next Saturday.",
+              "Cool. Are you gonna get on the pony?"
+            ],
+            "incorrect": [
+              "I'm going to see a pony that my friend is breeding next Saturday.",
+              "Cool. Are you gonna get on the horse?"
+            ]
+          }
+        }
+      ]
+    },
+    "12": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "田中さん、よい時計をお持ちですね。",
+            "ありがとう、この時計は祖父の形見なんです。"
+          ],
+          "trg": {
+            "correct": [
+              "You have a good watch, Mr.Tanaka.",
+              "Thank you, this watch is a memento of my grandfather."
+            ],
+            "incorrect": [
+              "You have a good watch, Mr.Tanaka.",
+              "Thank you, this clock is a memento of my grandfather."
+            ]
+          }
+        },
+        {
+          "src": [
+            "田中さん、よい時計をお持ちですね。",
+            "ありがとう、この時計は祖父の形見なんです。"
+          ],
+          "trg": {
+            "correct": [
+              "You have a good clock, Mr.Tanaka.",
+              "Thank you, this clock is a memento of my grandfather."
+            ],
+            "incorrect": [
+              "You have a good clock, Mr.Tanaka.",
+              "Thank you, this watch is a memento of my grandfather."
+            ]
+          }
+        }
+      ]
+    },
+    "13": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "ハンガーフォードさんは、斧を取って丘に上がり、店のために木を切ってくるように、と言いました。",
+            "僕は、斧を取って、自分は木の切り方を学びに来たわけではないのだと言いました。"
+          ],
+          "trg": {
+            "correct": [
+              "Mr.Hungerford told me to take his ax, go up on the hill, and cut some wood for the shop.",
+              "I hold his ax, and said that I did not come here to learn to chop."
+            ],
+            "incorrect": [
+              "Mr.Hungerford told me to take his ax, go up on the hill, and cut some wood for the shop.",
+              "I hold his hatchet, and said that I did not come here to learn to chop."
+            ]
+          }
+        },
+        {
+          "src": [
+            "ハンガーフォードさんは、斧を取って丘に上がり、店のために木を切ってくるように、と言いました。",
+            "僕は、斧を取って、自分は木の切り方を学びに来たわけではないのだと言いました。"
+          ],
+          "trg": {
+            "correct": [
+              "Mr.Hungerford told me to take his hatchet, go up on the hill, and cut some wood for the shop.",
+              "I hold his hatchet, and said that I did not come here to learn to chop."
+            ],
+            "incorrect": [
+              "Mr.Hungerford told me to take his hatchet, go up on the hill, and cut some wood for the shop.",
+              "I hold his ax, and said that I did not come here to learn to chop."
+            ]
+          }
+        }
+      ]
+    },
+    "14": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "心地よく感じる帽子にとっての敵は、毎日の汚れや垢だけではありません。",
+            "帽子がどのように扱われるのかも、長持ちするかどうかと大いに関係しています。"
+          ],
+          "trg": {
+            "correct": [
+              "Daily durt and and grime are not the only enemy of a nice felt hat.",
+              "The manner in which the hat is handled has a lot to do with its longevity."
+            ],
+            "incorrect": [
+              "Daily durt and and grime are not the only enemy of a nice felt hat.",
+              "The manner in which the cap is handled has a lot to do with its longevity."
+            ]
+          }
+        },
+        {
+          "src": [
+            "心地よく感じる帽子にとっての敵は、毎日の汚れや垢だけではありません。",
+            "帽子がどのように扱われるのかも、長持ちするかどうかと大いに関係しています。"
+          ],
+          "trg": {
+            "correct": [
+              "Daily durt and and grime are not the only enemy of a nice felt cap.",
+              "The manner in which the cap is handled has a lot to do with its longevity."
+            ],
+            "incorrect": [
+              "Daily durt and and grime are not the only enemy of a nice felt cap.",
+              "The manner in which the hat is handled has a lot to do with its longevity."
+            ]
+          }
+        }
+      ]
+    },
+    "15": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "レスターさんは私に上着の中に何が入っているのか聞いた。",
+            "私は彼に、上着に入れていたカメラを見せた。"
+          ],
+          "trg": {
+            "correct": [
+              "Lester asked me what's on the inside of my coat. ",
+              "I showed him my camera inside the coat."
+            ],
+            "incorrect": [
+              "Lester asked me what's on the inside of my coat. ",
+              "I showed him my camera inside the jacket."
+            ]
+          }
+        },
+        {
+          "src": [
+            "レスターさんは私に上着の中に何が入っているのか聞いた。",
+            "私は彼に、上着に入れていたカメラを見せた。"
+          ],
+          "trg": {
+            "correct": [
+              "Lester asked me what's on the inside of my jacket. ",
+              "I showed him my camera inside the jacket."
+            ],
+            "incorrect": [
+              "Lester asked me what's on the inside of my jacket. ",
+              "I showed him my camera inside the coat."
+            ]
+          }
+        }
+      ]
+    },
+    "16": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "銃を持って、使い方を学びなさい。",
+            "もし武器を持ってなければ、あいつは僕を銃で撃ってくるのですか？"
+          ],
+          "trg": {
+            "correct": [
+              "You must get yourself a gun and learn how to use it.",
+              "Will he shoot me with his gun if I have no weapon?"
+            ],
+            "incorrect": [
+              "You must get yourself a gun and learn how to use it.",
+              "Will he shoot me with his rifle if I have no weapon?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "銃を持って、使い方を学びなさい。",
+            "もし武器を持ってなければ、あいつは僕を銃で撃ってくるのですか？"
+          ],
+          "trg": {
+            "correct": [
+              "You must get yourself a rifle and learn how to use it.",
+              "Will he shoot me with his rifle if I have no weapon?"
+            ],
+            "incorrect": [
+              "You must get yourself a rifle and learn how to use it.",
+              "Will he shoot me with his gun if I have no weapon?"
+            ]
+          }
+        }
+      ]
+    },
+    "17": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "槍は完全に廃れることはなく１８００年までに戻ってきて、ヨーロッパのの軍隊の大多数の間で使われるようになりました。",
+            "次の世紀では、槍の使用はほぼ全ての西洋の軍隊に広がり、世界中で採用されるようになりました。"
+          ],
+          "trg": {
+            "correct": [
+              "The lance never went away completely and by 1800 it was back,  and in use by the majority of Europian armies.",
+              "During the next century the use of the lance spread to almost every Western military and it was employed all over the world."
+            ],
+            "incorrect": [
+              "The lance never went away completely and by 1800 it was back,  and in use by the majority of Europian armies.",
+              "During the next century the use of the spear spread to almost every Western military and it was employed all over the world."
+            ]
+          }
+        },
+        {
+          "src": [
+            "槍は完全に廃れることはなく１８００年までに戻ってきて、ヨーロッパのの軍隊の大多数の間で使われるようになりました。",
+            "次の世紀では、槍の使用はほぼ全ての西洋の軍隊に広がり、世界中で採用されるようになりました。"
+          ],
+          "trg": {
+            "correct": [
+              "The spear never went away completely and by 1800 it was back and in use by the majority of Europian armies.",
+              "During the next century the use of the spear spread to almost every Western military and it was employed all over the world."
+            ],
+            "incorrect": [
+              "The spear never went away completely and by 1800 it was back and in use by the majority of Europian armies.",
+              "During the next century the use of the lance spread to almost every Western military and it was employed all over the world."
+            ]
+          }
+        }
+      ]
+    },
+    "18": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "お子さんが自分の飲み物もコップも用意できるようになったからと言って、お母さんの手がかからなくなるわけではありません。",
+            "飲むたびに新しいコップを戸棚からだして、飲んだ後はそのままにしてしまうことがあるでしょう。"
+          ],
+          "trg": {
+            "correct": [
+              "Mothers still have trouble with their children even after they became able to prepare their cup and drink. ",
+              "They put out a new cup each time they drink and leave it after they drink."
+            ],
+            "incorrect": [
+              "Mothers still have trouble with their children even after they became able to prepare their cup and drink. ",
+              "They put out a new glass each time they drink and leave it after they drink."
+            ]
+          }
+        },
+        {
+          "src": [
+            "お子さんが自分の飲み物もコップも用意できるようになったからと言って、お母さんの手がかからなくなるわけではありません。",
+            "飲むたびに新しいコップを戸棚からだして、飲んだ後はそのままにしてしまうことがあるでしょう。"
+          ],
+          "trg": {
+            "correct": [
+              "Mothers still have trouble with their children even after they became able to prepare their glass and drink. ",
+              "They put out a new glass each time they drink and leave it after they drink."
+            ],
+            "incorrect": [
+              "Mothers still have trouble with their children even after they became able to prepare their glass and drink. ",
+              "They put out a new cup each time they drink and leave it after they drink."
+            ]
+          }
+        }
+      ]
+    },
+    "19": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "ワニにとって顎は重要です。",
+            "ワニはその顎を獲物を噛み砕き、殺すために使います。"
+          ],
+          "trg": {
+            "correct": [
+              "Jaws are important to an alligator.",
+              "Alligator use their jaws to crush and kill prey."
+            ],
+            "incorrect": [
+              "Jaws are important to an alligator.",
+              "Crocodiles use their jaws to crush and kill prey."
+            ]
+          }
+        },
+        {
+          "src": [
+            "ワニにとって顎は重要です。",
+            "ワニはその顎を獲物を噛み砕き、殺すために使います。"
+          ],
+          "trg": {
+            "correct": [
+              "Jaws are important to a crocodile.",
+              "Crocodiles use their jaws to crush and kill prey."
+            ],
+            "incorrect": [
+              "Jaws are important to a crocodile.",
+              "Alligator use their jaws to crush and kill prey."
+            ]
+          }
+        }
+      ]
+    },
+    "20": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "すいません、ズボンを探しているのですが。",
+            "はい、いろいろな種類のズボンがありますよ。"
+          ],
+          "trg": {
+            "correct": [
+              "Excuse me, I'm looking for a pair of trousers.",
+              "Yes, we have various kinds of trousers."
+            ],
+            "incorrect": [
+              "Excuse me, I'm looking for a pair of trousers.",
+              "Yes, we have various kinds of pants."
+            ]
+          }
+        },
+        {
+          "src": [
+            "すいません、ズボンを探しているのですが。",
+            "はい、いろいろな種類のズボンがありますよ。"
+          ],
+          "trg": {
+            "correct": [
+              "Excuse me, I'm looking for a pair of pants.",
+              "Yes, we have various kinds of pants."
+            ],
+            "incorrect": [
+              "Excuse me, I'm looking for a pair of pants.",
+              "Yes, we have various kinds of trousers."
+            ]
+          }
+        }
+      ]
+    },
+    "21": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "こちらはジョンソンさんの個人的なお庭となります。",
+            "さすがジョンソンさんはとても美しいお庭をお持ちですね。"
+          ],
+          "trg": {
+            "correct": [
+              "This is Mr.Johnson's private garden.",
+              "He sure keeps a very beautiful garden."
+            ],
+            "incorrect": [
+              "This is Mr.Johnson's private garden.",
+              "He sure keeps a very beautiful yard."
+            ]
+          }
+        },
+        {
+          "src": [
+            "こちらはジョンソンさんの個人的なお庭となります。",
+            "さすがジョンソンさんはとても美しいお庭をお持ちですね。"
+          ],
+          "trg": {
+            "correct": [
+              "This is Mr.Johnson's private yard.",
+              "He sure keeps a very beautiful yard."
+            ],
+            "incorrect": [
+              "This is Mr.Johnson's private yard.",
+              "He sure keeps a very beautiful garden."
+            ]
+          }
+        }
+      ]
+    },
+    "22": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この町一番の酒場はどこだい？",
+            "酒場かい？それならこの通り沿いのガソリンスタンドの隣で、名前は、「Hot Birdly」だよ。"
+          ],
+          "trg": {
+            "correct": [
+              "Where's the best bar in this town?",
+              "The bar? It's on this street next to the gas station, and the name is \"Hot Birdy\"."
+            ],
+            "incorrect": [
+              "Where's the best bar in this town?",
+              "The pub? It's on this street next to the gas station, and the name is \"Hot Birdy\"."
+            ]
+          }
+        },
+        {
+          "src": [
+            "この町一番の酒場はどこだい？",
+            "酒場かい？それならこの通り沿いのガソリンスタンドの隣で、名前は、「Hot Birdly」だよ。"
+          ],
+          "trg": {
+            "correct": [
+              "Where's the best pub in this town?",
+              "The pub? It's on this street next to the gas station, and the name is \"Hot Birdy\"."
+            ],
+            "incorrect": [
+              "Where's the best pub in this town?",
+              "The bar? It's on this street next to the gas station, and the name is \"Hot Birdy\"."
+            ]
+          }
+        }
+      ]
+    },
+    "23": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この沼ではどういう種類の植物がみられるのですか？",
+            "ここでは、蒲などの沼沢植物が生息してるのを見ることができますよ。"
+          ],
+          "trg": {
+            "correct": [
+              "What kind of plants can I find in this swamp?",
+              "You can see swamp plants growing here, such as cattail."
+            ],
+            "incorrect": [
+              "What kind of plants can I find in this swamp?",
+              "You can see marsh plants growing here, such as cattail."
+            ]
+          }
+        },
+        {
+          "src": [
+            "この沼ではどういう種類の植物がみられるのですか？",
+            "ここでは、蒲などの沼沢植物が生息してるのを見ることができますよ。"
+          ],
+          "trg": {
+            "correct": [
+              "What kind of plants can I find in this marsh?",
+              "You can see marsh plants growing here, such as cattail."
+            ],
+            "incorrect": [
+              "What kind of plants can I find in this marsh?",
+              "You can see swamp plants growing here, such as cattail."
+            ]
+          }
+        }
+      ]
+    },
+    "24": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "老魔女たちは、動物たちの肉を釜で煮込んでいました。",
+            "魔女たちの釜はたき火の上にたぎっていた."
+          ],
+          "trg": {
+            "correct": [
+              "The old witches was boiling animal flesh in the cauldron.",
+              "The cauldron of the witches seethed on the bonfire."
+            ],
+            "incorrect": [
+              "The old witches was boiling animal flesh in the cauldron.",
+              "The pot of the witches seethed on the bonfire."
+            ]
+          }
+        },
+        {
+          "src": [
+            "老魔女たちは、動物たちの肉を釜で煮込んでいました。",
+            "魔女たちの釜はたき火の上にたぎっていた."
+          ],
+          "trg": {
+            "correct": [
+              "The old witches was boiling animal flesh in the pot.",
+              "The pot of the witches seethed on the bonfire."
+            ],
+            "incorrect": [
+              "The old witches was boiling animal flesh in the pot.",
+              "The cauldron of the witches seethed on the bonfire."
+            ]
+          }
+        }
+      ]
+    },
+    "25": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "パンを焼いたんだけど、食べる？",
+            "うん、食べたいな。どんなパンを焼いたの？"
+          ],
+          "trg": {
+            "correct": [
+              "I baked buns and do you wanna try some?",
+              "Yes, I do. What kind of buns did you bake?"
+            ],
+            "incorrect": [
+              "I baked buns and do you wanna try some?",
+              "Yes, I do. What kind of bread did you bake?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "パンを焼いたんだけど、食べる？",
+            "うん、食べたいな。どんなパンを焼いたの？"
+          ],
+          "trg": {
+            "correct": [
+              "I baked bread and do you wanna try some?",
+              "Yes, I do. What kind of bread did you bake?"
+            ],
+            "incorrect": [
+              "I baked bread and do you wanna try some?",
+              "Yes, I do. What kind of buns did you bake?"
+            ]
+          }
+        }
+      ]
+    },
+    "26": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "お皿はもっと必要ですか？",
+            "はい、お皿は戸棚にあります。"
+          ],
+          "trg": {
+            "correct": [
+              "Do you need an extra plate for your food?  ",
+              "Yes, you can take plates from the cupboard."
+            ],
+            "incorrect": [
+              "Do you need an extra plate for your food?  ",
+              "Yes, you can take dishes from the cupboard."
+            ]
+          }
+        },
+        {
+          "src": [
+            "お皿はもっと必要ですか？",
+            "はい、お皿は戸棚にあります。"
+          ],
+          "trg": {
+            "correct": [
+              "Do you need a extra dish for your food?  ",
+              "Yes, you can take dishes from the cupboard."
+            ],
+            "incorrect": [
+              "Do you need a extra dish for your food?  ",
+              "Yes, you can take plates from the cupboard."
+            ]
+          }
+        }
+      ]
+    },
+    "27": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "本屋は中央通りにあるんですよね？",
+            "間違いないですね。中央通りです。"
+          ],
+          "trg": {
+            "correct": [
+              "The bookstore is located on the central street, right?",
+              "Right, it's on the central street."
+            ],
+            "incorrect": [
+              "The bookstore is located on the central street, right?",
+              "Right, it's on the central avenue."
+            ]
+          }
+        },
+        {
+          "src": [
+            "本屋は中央通りにあるんですよね？",
+            "間違いないですね。中央通りです。"
+          ],
+          "trg": {
+            "correct": [
+              "The bookstore is located on the central avenue, right?",
+              "Right, it's on the central avenue."
+            ],
+            "incorrect": [
+              "The bookstore is located on the central avenue, right?",
+              "Right, it's on the central street."
+            ]
+          }
+        }
+      ]
+    },
+    "28": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この駅の前には店が密集してます。",
+            "本当ですね、店同士の競争が激しいでしょうね。"
+          ],
+          "trg": {
+            "correct": [
+              "Shops are clustered close together in front of this station.",
+              "Definitely, the competition must be fierce among the shops."
+            ],
+            "incorrect": [
+              "Shops are clustered close together in front of this station.",
+              "Definitely, the competition must be fierce among the kiosks."
+            ]
+          }
+        },
+        {
+          "src": [
+            "この駅の前には店が密集してます。",
+            "本当ですね、店同士の競争が激しいでしょうね。"
+          ],
+          "trg": {
+            "correct": [
+              "Kiosks are clustered close together in front of this station.",
+              "Definitely, the competition must be fierce among the kiosks."
+            ],
+            "incorrect": [
+              "Kiosks are clustered close together in front of this station.",
+              "Definitely, the competition must be fierce among the shops."
+            ]
+          }
+        }
+      ]
+    },
+    "29": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "太郎は蜂蜜が入った瓶を落としてしまった。",
+            "だが、運よく瓶は割れなかった。"
+          ],
+          "trg": {
+            "correct": [
+              "Taro carelessly dropped the honey jar.",
+              "But fortunately, the jar did not break. "
+            ],
+            "incorrect": [
+              "Taro carelessly dropped the honey jar.",
+              "But fortunately, the bottle did not break. "
+            ]
+          }
+        },
+        {
+          "src": [
+            "太郎は蜂蜜が入った瓶を落としてしまった。",
+            "だが、運よく瓶は割れなかった。"
+          ],
+          "trg": {
+            "correct": [
+              "Taro carelessly dropped the honey bottle.",
+              "But fortunately, the bottle did not break. "
+            ],
+            "incorrect": [
+              "Taro carelessly dropped the honey bottle.",
+              "But fortunately, the jar did not break. "
+            ]
+          }
+        }
+      ]
+    },
+    "30": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この近くの川が大好きなんだ、遊びに行こうよ。",
+            "いいね、楽しみ。なんという川なの？"
+          ],
+          "trg": {
+            "correct": [
+              "I love the river near here, and why don't we go there to play?",
+              "Sounds good. What is the name of the river?"
+            ],
+            "incorrect": [
+              "I love the river near here, and why don't we go there to play?",
+              "Sounds good. What is the name of the stream?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "この近くの川が大好きなんだ、遊びに行こうよ。",
+            "いいね、楽しみ。なんという川なの？"
+          ],
+          "trg": {
+            "correct": [
+              "I love the stream near here, and why don't we go there to play?",
+              "Sounds good. What is the name of the stream?"
+            ],
+            "incorrect": [
+              "I love the stream near here, and why don't we go there to play?",
+              "Sounds good. What is the name of the river?"
+            ]
+          }
+        }
+      ]
+    },
+    "31": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "うちでは、牛を3頭飼っているよ。",
+            "そうなんですね。牛以外では何か飼っているの？"
+          ],
+          "trg": {
+            "correct": [
+              "We have three cows in my house.",
+              "Really. Do you have animals other than the cows?"
+            ],
+            "incorrect": [
+              "We have three cows in my house.",
+              "Really. Do you have animals other than the oxen?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "うちでは、牛を3頭飼っているよ。",
+            "そうなんですね。牛以外では何か飼っているの？"
+          ],
+          "trg": {
+            "correct": [
+              "We have three oxen in my house.",
+              "Really. Do you have animals other than the oxen?"
+            ],
+            "incorrect": [
+              "We have three oxen in my house.",
+              "Really. Do you have animals other than the cows?"
+            ]
+          }
+        }
+      ]
+    },
+    "32": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "鹿が虎から追われていました。",
+            "ついに、虎は鹿を捕らえました。"
+          ],
+          "trg": {
+            "correct": [
+              "A doe was being chased by the tiger.",
+              "The tiger finally caught the doe."
+            ],
+            "incorrect": [
+              "A doe was being chased by the tiger.",
+              "The tiger finally caught the buck."
+            ]
+          }
+        },
+        {
+          "src": [
+            "鹿が虎から追われていました。",
+            "ついに、虎は鹿を捕らえました。"
+          ],
+          "trg": {
+            "correct": [
+              "A buck was being chased by the tiger.",
+              "The tiger finally caught the buck."
+            ],
+            "incorrect": [
+              "A buck was being chased by the tiger.",
+              "The tiger finally caught the doe."
+            ]
+          }
+        }
+      ]
+    },
+    "33": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "のりを貸してくれない？",
+            "ごめん、のりは持ってないんだ。"
+          ],
+          "trg": {
+            "correct": [
+              "Can I borrow your paste?",
+              "Sorry, I don't have a paste."
+            ],
+            "incorrect": [
+              "Can I borrow your paste?",
+              "Sorry, I don't have a glue."
+            ]
+          }
+        },
+        {
+          "src": [
+            "のりを貸してくれない？",
+            "ごめん、のりは持ってないんだ。"
+          ],
+          "trg": {
+            "correct": [
+              "Can I borrow your glue?",
+              "Sorry, I don't have a glue."
+            ],
+            "incorrect": [
+              "Can I borrow your glue?",
+              "Sorry, I don't have a paste."
+            ]
+          }
+        }
+      ]
+    },
+    "34": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "私は蛙を飼っています。",
+            "蛙がお好きなんですね。"
+          ],
+          "trg": {
+            "correct": [
+              "I have a frog.",
+              "You like frogs, right?"
+            ],
+            "incorrect": [
+              "I have a frog.",
+              "You like toads, right?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "私は蛙を飼っています。",
+            "蛙がお好きなんですね。"
+          ],
+          "trg": {
+            "correct": [
+              "I have a toad.",
+              "You like toads, right?"
+            ],
+            "incorrect": [
+              "I have a toad.",
+              "You like frogs, right?"
+            ]
+          }
+        }
+      ]
+    },
+    "35": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "今仕事を２つ抱えています。",
+            "どんな仕事をしてるんですか？"
+          ],
+          "trg": {
+            "correct": [
+              "I have two kinds of tasks right now.",
+              "What kind of tasks do you have?"
+            ],
+            "incorrect": [
+              "I have two kinds of tasks right now.",
+              "What kind of jobs do you have?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "今仕事を２つ抱えています。",
+            "どんな仕事をしてるんですか？"
+          ],
+          "trg": {
+            "correct": [
+              "I have two kinds of jobs right now.",
+              "What kind of jobs do you have?"
+            ],
+            "incorrect": [
+              "I have two kinds of jobs right now.",
+              "What kind of tasks do you have?"
+            ]
+          }
+        }
+      ]
+    },
+    "36": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "ぬいぐるみを作りたいのですが、どんな素材がいいのでしょう。",
+            "この薄手素材はぬいぐるみにぴったりの素材です。"
+          ],
+          "trg": {
+            "correct": [
+              "I want to make a staffed doll, and can you tell me what cloth I should use?",
+              "This thin cloth suits stuffed dolls."
+            ],
+            "incorrect": [
+              "I want to make a staffed doll, and can you tell me what cloth I should use?",
+              "This thin cloth suits stuffed animals."
+            ]
+          }
+        },
+        {
+          "src": [
+            "ぬいぐるみを作りたいのですが、どんな素材がいいのでしょう。",
+            "この薄手素材はぬいぐるみにぴったりの素材です。"
+          ],
+          "trg": {
+            "correct": [
+              "I want to make a staffed doll, and can you tell me what cloth I should use?",
+              "This thin cloth suits stuffed animals."
+            ],
+            "incorrect": [
+              "I want to make a staffed doll, and can you tell me what cloth I should use?",
+              "This thin cloth suits stuffed dolls."
+            ]
+          }
+        }
+      ]
+    },
+    "37": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "安静にしてくださいね。あとお薬は足りてますか？",
+            "薬をもっと欲しいです、先生。"
+          ],
+          "trg": {
+            "correct": [
+              "Please take plenty of rest. Do you have enough pills?",
+              "I need more pills, doctor. "
+            ],
+            "incorrect": [
+              "Please take plenty of rest. Do you have enough pills?",
+              "I need more applications, doctor. "
+            ]
+          }
+        },
+        {
+          "src": [
+            "安静にしてくださいね。あとお薬は足りてますか？",
+            "薬をもっと欲しいです、先生。"
+          ],
+          "trg": {
+            "correct": [
+              "Please take plenty of rest. Do you have enough applications?",
+              "I need more applications, doctor. "
+            ],
+            "incorrect": [
+              "Please take plenty of rest. Do you have enough applications?",
+              "I need more pills, doctor. "
+            ]
+          }
+        }
+      ]
+    },
+    "38": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "うわ、小屋に虫が大量発生してるよ。",
+            "えー、わたし虫が嫌いだから入りたくないなあ。"
+          ],
+          "trg": {
+            "correct": [
+              "Oh no, we have an outbreak of worms in the shed.",
+              "What? I don't wanna come in 'cause I hate worms."
+            ],
+            "incorrect": [
+              "Oh no, we have an outbreak of worms in the shed.",
+              "What? I don't wanna come in 'cause I hate insects."
+            ]
+          }
+        },
+        {
+          "src": [
+            "うわ、小屋に虫が大量発生してるよ。",
+            "えー、わたし虫が嫌いだから入りたくないなあ。"
+          ],
+          "trg": {
+            "correct": [
+              "Oh no, we have an outbreak of insects in the shed.",
+              "What? I don't wanna come in 'cause I hate insects."
+            ],
+            "incorrect": [
+              "Oh no, we have an outbreak of insects in the shed.",
+              "What? I don't wanna come in 'cause I hate worms."
+            ]
+          }
+        }
+      ]
+    },
+    "39": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "山を探していた探検家たちは、何日もあたりをさまよっていた。",
+            "しかし、苦労をを乗り越えて、ついに彼らは探し求めていた山にたどり着いた。"
+          ],
+          "trg": {
+            "correct": [
+              "The explorers was wandering around to find the mine for many days.",
+              "They overcame the hardships and finally reached the mine they were seeking."
+            ],
+            "incorrect": [
+              "The explorers was wandering around to find the mine for many days.",
+              "They overcame the hardships and finally reached the mountain they were seeking."
+            ]
+          }
+        },
+        {
+          "src": [
+            "山を探していた探検家たちは、何日もあたりをさまよっていた。",
+            "しかし、苦労をを乗り越えて、ついに彼らは探し求めていた山にたどり着いた。"
+          ],
+          "trg": {
+            "correct": [
+              "The explorers was wandering around to find the mountain for many days.",
+              "They overcame the hardships and finally reached the mountain they were seeking."
+            ],
+            "incorrect": [
+              "The explorers was wandering around to find the mountain for many days.",
+              "They overcame the hardships and finally reached the mine they were seeking."
+            ]
+          }
+        }
+      ]
+    },
+    "40": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "しかし、なぜヒゲだったのだろうか。",
+            "シャルルマーニュはヒゲを蓄えることで、テオドリック大王を真似していたと考えざるをえない。"
+          ],
+          "trg": {
+            "correct": [
+              "But why a mustache?",
+              "It is hard not to suspect that by wearing mustache Charlesmagne was delibaretely imitating Theodric the Great."
+            ],
+            "incorrect": [
+              "But why a mustache?",
+              "It is hard not to suspect that by wearing beard Charlesmagne was delibaretely imitating Theodric the Great."
+            ]
+          }
+        },
+        {
+          "src": [
+            "しかし、なぜヒゲだったのだろうか。",
+            "シャルルマーニュはヒゲを蓄えることで、テオドリック大王を真似していたと考えざるをえない。"
+          ],
+          "trg": {
+            "correct": [
+              "But why a beard?",
+              "It is hard not to suspect that by wearing beard Charlesmagne was delibaretely imitating Theodric the Great."
+            ],
+            "incorrect": [
+              "But why a beard?",
+              "It is hard not to suspect that by wearing mustache Charlesmagne was delibaretely imitating Theodric the Great."
+            ]
+          }
+        }
+      ]
+    },
+    "41": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "代理人が会議に出入りするときに多くの記者が朝の多くの時間を回りで待っているのに費やしている。",
+            "「一年で一番ばかな日ですね。」とある記者は言う。"
+          ],
+          "trg": {
+            "correct": [
+              "Dozens of reporters spent most of the morning waiting around as agents wandered in and out of the meeting.",
+              "“Dumbest day of the year,” a reporter told me."
+            ],
+            "incorrect": [
+              "Dozens of reporters spent most of the morning waiting around as agents wandered in and out of the meeting.",
+              "“Dumbest day of the year,” a journalist told me."
+            ]
+          }
+        },
+        {
+          "src": [
+            "代理人が会議に出入りするときに多くの記者が朝の多くの時間を回りで待っているのに費やしている。",
+            "「一年で一番ばかな日ですね。」とある記者は言う。"
+          ],
+          "trg": {
+            "correct": [
+              "Dozens of jouralist spent most of the morning waiting around as agents wandered in and out of the meeting.",
+              "“Dumbest day of the year,” a journalist told me."
+            ],
+            "incorrect": [
+              "Dozens of jouralist spent most of the morning waiting around as agents wandered in and out of the meeting.",
+              "“Dumbest day of the year,” a reporter told me."
+            ]
+          }
+        }
+      ]
+    },
+    "42": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "にわとりに住む場所を提供してくれませんか？",
+            "拾ってもらえるのを待っているにわとりがまだもっと多くいます。"
+          ],
+          "trg": {
+            "correct": [
+              "Can you offer a hen a place to live?",
+              "There are still more hens waiting to be picked up."
+            ],
+            "incorrect": [
+              "Can you offer a hen a place to live?",
+              "There are still more cocks waiting to be picked up."
+            ]
+          }
+        },
+        {
+          "src": [
+            "にわとりに住む場所を提供してくれませんか？",
+            "拾ってもらえるのを待っているにわとりがまだもっと多くいます。"
+          ],
+          "trg": {
+            "correct": [
+              "Can you offer a cock a place to live?",
+              "There are still more cocks waiting to be picked up."
+            ],
+            "incorrect": [
+              "Can you offer a cock a place to live?",
+              "There are still more hens waiting to be picked up."
+            ]
+          }
+        }
+      ]
+    },
+    "43": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "ハトと友達の人なら誰でも言うように、手の上で食事をするようにその鳥を訓練するのはそこまで努力はかからない。",
+            "実際、ハトは中に鳥の餌があると知っているのなら、喜んで玄関の中に歩いてくるでしょう。"
+          ],
+          "trg": {
+            "correct": [
+              "As anyone who has befriended a pigeon will tell you, it doesn't take much effort to train the bird to eat out of your hand.",
+              "In fact, a pigeon will happily walk through your front door if it knows there is birdseed inside."
+            ],
+            "incorrect": [
+              "As anyone who has befriended a pigeon will tell you, it doesn't take much effort to train the bird to eat out of your hand.",
+              "In fact, a dove will happily walk through your front door if it knows there is birdseed inside."
+            ]
+          }
+        },
+        {
+          "src": [
+            "ハトと友達の人なら誰でも言うように、手の上で食事をするようにその鳥を訓練するのはそこまで努力はかからない。",
+            "実際、ハトは中に鳥の餌があると知っているのなら、喜んで玄関の中に歩いてくるでしょう。"
+          ],
+          "trg": {
+            "correct": [
+              "As anyone who has befriended a dove will tell you, it doesn't take much effort to train the bird to eat out of your hand.",
+              "In fact, a dove will happily walk through your front door if it knows there is birdseed inside."
+            ],
+            "incorrect": [
+              "As anyone who has befriended a dove will tell you, it doesn't take much effort to train the bird to eat out of your hand.",
+              "In fact, a pigeon will happily walk through your front door if it knows there is birdseed inside."
+            ]
+          }
+        }
+      ]
+    },
+    "44": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "小屋は羊を悪天候から守ります。",
+            "またそれは、羊に危害を加えるかもしれない動物を締め出します。"
+          ],
+          "trg": {
+            "correct": [
+              "A barn protects sheep from bad whether.",
+              "It keeps out animals that might harm the sheep."
+            ],
+            "incorrect": [
+              "A barn protects sheep from bad whether.",
+              "It keeps out animals that might harm the lambs."
+            ]
+          }
+        },
+        {
+          "src": [
+            "小屋は羊を悪天候から守ります。",
+            "またそれは、羊に危害を加えるかもしれない動物を締め出します。"
+          ],
+          "trg": {
+            "correct": [
+              "A barn protects lambs from bad whether.",
+              "It keeps out animals that might harm the lambs."
+            ],
+            "incorrect": [
+              "A barn protects lambs from bad whether.",
+              "It keeps out animals that might harm the sheep."
+            ]
+          }
+        }
+      ]
+    },
+    "45": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "うさぎさんが散歩しておりました。",
+            "一匹で歩くのはうさぎさんに初めてです。"
+          ],
+          "trg": {
+            "correct": [
+              "A rabbit was taking a walk.",
+              "It was first time for the rabbit to walk alone."
+            ],
+            "incorrect": [
+              "A rabbit was taking a walk.",
+              "It was first time for the hare to walk alone."
+            ]
+          }
+        },
+        {
+          "src": [
+            "うさぎさんが散歩しておりました。",
+            "一匹で歩くのはうさぎさんに初めてです。"
+          ],
+          "trg": {
+            "correct": [
+              "A hare was taking a walk.",
+              "It was first time for the hare to walk alone."
+            ],
+            "incorrect": [
+              "A hare was taking a walk.",
+              "It was first time for the rabbit to walk alone."
+            ]
+          }
+        }
+      ]
+    },
+    "46": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "私の本業はダニの研究である。",
+            "人呼んで、「ダニ博士」と呼ばれている。"
+          ],
+          "trg": {
+            "correct": [
+              "My main business is research of mites.",
+              "People call me \"Dr. Mites\"."
+            ],
+            "incorrect": [
+              "My main business is research of mites.",
+              "People call me \"Dr. Ticks\"."
+            ]
+          }
+        },
+        {
+          "src": [
+            "私の本業はダニの研究である。",
+            "人呼んで、「ダニ博士」と呼ばれている。"
+          ],
+          "trg": {
+            "correct": [
+              "My main business is research of ticks.",
+              "People call me \"Dr. Ticks\"."
+            ],
+            "incorrect": [
+              "My main business is research of ticks.",
+              "People call me \"Dr. Mites\"."
+            ]
+          }
+        }
+      ]
+    },
+    "47": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この本には珍しいさなぎの写真がたっぷり掲載されている。",
+            "詳細な拡大写真も豊富で、さなぎの様子がよくわかる。"
+          ],
+          "trg": {
+            "correct": [
+              "This book is packed with full of pictures of rare chrysalises.",
+              "There are plenty of enlarged detail photos and you can see the appearances of chrysalises clearly."
+            ],
+            "incorrect": [
+              "This book is packed with full of pictures of rare chrysalises.",
+              "There are also plenty of enlarged detail photos and you can see the appearances of pupas clearly."
+            ]
+          }
+        },
+        {
+          "src": [
+            "この本には珍しいさなぎの写真がたっぷり掲載されている。",
+            "詳細な拡大写真も豊富で、さなぎの様子がよくわかる。"
+          ],
+          "trg": {
+            "correct": [
+              "This book is packed with full of pictures of rare pupas.",
+              "There are also plenty of enlarged detail photos and you can see the appearances of pupas clearly."
+            ],
+            "incorrect": [
+              "This book is packed with full of pictures of rare pupas.",
+              "There are plenty of enlarged detail photos and you can see the appearances of chrysalises clearly."
+            ]
+          }
+        }
+      ]
+    },
+    "48": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "亀って不思議、私が死ぬまでいきているんかもね。",
+            "しかも、亀は攻撃性がすくなく、実際に私も喧嘩しているのを見たことがない。"
+          ],
+          "trg": {
+            "correct": [
+              "Tortoises are mysterious and they will be living until I die.",
+              "Moreover, tortises have little agressiveness, and in fact I've never seen their fights."
+            ],
+            "incorrect": [
+              "Tortoises are mysterious and they will be living until I die.",
+              "Moreover, turtles have little agressiveness, and in fact I've never seen their fights."
+            ]
+          }
+        },
+        {
+          "src": [
+            "亀って不思議、私が死ぬまでいきているんかもね。",
+            "しかも、亀は攻撃性がすくなく、実際に私も喧嘩しているのを見たことがない。"
+          ],
+          "trg": {
+            "correct": [
+              "Turtles are mysterious, they will be living until I die.",
+              "Moreover, turtles have little agressiveness, and in fact I've never seen their fights."
+            ],
+            "incorrect": [
+              "Turtles are mysterious, they will be living until I die.",
+              "Moreover, tortises have little agressiveness, and in fact I've never seen their fights."
+            ]
+          }
+        }
+      ]
+    },
+    "49": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "ヒョウはアジアからアラビア半島、アフリカまで幅広く分布していて、地域によって幾つかの亜種が知られている。",
+            "ヒョウは木登りや泳ぎもうまく、運動能力にすぐれ,非常に敏捷な動きをすることができる。"
+          ],
+          "trg": {
+            "correct": [
+              "Panther is destributed in a wide range from Asia to Afriaca and some subspecies of it are known depending on regions.",
+              "Panther is good at climbing trees and swimming and moves very quickly."
+            ],
+            "incorrect": [
+              "Panther is destributed in a wide range from Asia to Afriaca and some subspecies of it are known depending on regions.",
+              "Leopard is good at climbing trees and swimming and moves very quickly."
+            ]
+          }
+        },
+        {
+          "src": [
+            "ヒョウはアジアからアラビア半島、アフリカまで幅広く分布していて、地域によって幾つかの亜種が知られている。",
+            "ヒョウは木登りや泳ぎもうまく、運動能力にすぐれ,非常に敏捷な動きをすることができる。"
+          ],
+          "trg": {
+            "correct": [
+              "Leopard is destributed in a wide range from Asia to Afriaca and some subspecies of it are known depending on regions.",
+              "Leopard is good at climbing trees and swimming and moves very quickly."
+            ],
+            "incorrect": [
+              "Leopard is destributed in a wide range from Asia to Afriaca and some subspecies of it are known depending on regions.",
+              "Panther is good at climbing trees and swimming and moves very quickly."
+            ]
+          }
+        }
+      ]
+    },
+    "50": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "どの山の峰にも猿がいっぱいに群がり、背を丸くして朝日を浴びているのである。",
+            "これはみんな猿か？"
+          ],
+          "trg": {
+            "correct": [
+              "At every mountain peak , monkeys herded and bathed in the morning sun arching their backs.",
+              "Are they all monkeys?"
+            ],
+            "incorrect": [
+              "At every mountain peak , monkeys herded and bathed in the morning sun arching their backs.",
+              "Are they all apes?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "どの山の峰にも猿がいっぱいに群がり、背を丸くして朝日を浴びているのである。",
+            "これはみんな猿か？"
+          ],
+          "trg": {
+            "correct": [
+              "At every mountain peak , apes herded and bathed in the morning sun arching their backs.",
+              "Are they all apes?"
+            ],
+            "incorrect": [
+              "At every mountain peak , apes herded and bathed in the morning sun arching their backs.",
+              "Are they all monkeys?"
+            ]
+          }
+        }
+      ]
+    },
+    "51": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "夏の初めになると、南の方の国から、つばめが北の方の国に飛んできました。",
+            "広い野原の中を汽車が行くときに、つばめは電線の上に止まって、じっと眺めていたこともあります。"
+          ],
+          "trg": {
+            "correct": [
+              "In early summer, a swallw flew from the southern country to the northern country .",
+              "The swallow once pearched on a power line and gazed at the train going through the open field."
+            ],
+            "incorrect": [
+              "In early summer, a swallw flew from the southern country to the northern country .",
+              "The martin once pearched on a power line and gazed at the train going through the open field."
+            ]
+          }
+        },
+        {
+          "src": [
+            "夏の初めになると、南の方の国から、つばめが北の方の国に飛んできました。",
+            "広い野原の中を汽車が行くときに、つばめは電線の上に止まって、じっと眺めていたこともあります。"
+          ],
+          "trg": {
+            "correct": [
+              "In early summer, a martin flew from the southern country to the northern country .",
+              "The martin once pearched on a power line and gazed at the train going through the open field."
+            ],
+            "incorrect": [
+              "In early summer, a martin flew from the southern country to the northern country .",
+              "The swallow once pearched on a power line and gazed at the train going through the open field."
+            ]
+          }
+        }
+      ]
+    },
+    "52": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この宗教では、この剣に神が宿っていると信じられている。",
+            "その神ってどんな神なんですか？"
+          ],
+          "trg": {
+            "correct": [
+              "It is believed that the god dwells in this sword in this religion.",
+              "What is the god like?"
+            ],
+            "incorrect": [
+              "It is believed that the god dwells in this sword in this religion.",
+              "What is the spirit like?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "この宗教では、この剣に神が宿っていると信じられている。",
+            "その神ってどんな神なんですか？"
+          ],
+          "trg": {
+            "correct": [
+              "It is believed that the spirit dwells in this sword in this religion.",
+              "What is the spirit like?"
+            ],
+            "incorrect": [
+              "It is believed that the spirit dwells in this sword in this religion.",
+              "What is the god like?"
+            ]
+          }
+        }
+      ]
+    },
+    "53": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "腕輪は数年前に、トレジャーハンターによって発見された。",
+            "メアリーはその腕輪の存在に「衝撃」を受けた。"
+          ],
+          "trg": {
+            "correct": [
+              "The bracelet had been found by the treasure-hunter years earlier.",
+              "Mary was “shocked” to learn of the bracelet’s existence."
+            ],
+            "incorrect": [
+              "The bracelet had been found by the treasure-hunter years earlier.",
+              "Mary was “shocked” to learn of the bangle’s existence."
+            ]
+          }
+        },
+        {
+          "src": [
+            "腕輪は数年前に、トレジャーハンターによって発見された。",
+            "メアリーはその腕輪の存在に「衝撃」を受けた。"
+          ],
+          "trg": {
+            "correct": [
+              "The bangle had been found by the treasure-hunter years earlier.",
+              "Mary was “shocked” to learn of the bangle’s existence."
+            ],
+            "incorrect": [
+              "The bangle had been found by the treasure-hunter years earlier.",
+              "Mary was “shocked” to learn of the bracelet’s existence."
+            ]
+          }
+        }
+      ]
+    },
+    "54": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "都会で育ったあの教授は、田舎に住みたいらしい。",
+            "でも、田舎で暮らすのは、何かと難しい。"
+          ],
+          "trg": {
+            "correct": [
+              "I heard the professor, who grew up in an urban area, wants to live in a countryside.",
+              "But it seems hard to live in countryside."
+            ],
+            "incorrect": [
+              "I heard the professor, who grew up in an urban area, wants to live in a countryside.",
+              "But it seems hard to live in his hometown."
+            ]
+          }
+        },
+        {
+          "src": [
+            "都会で育ったあの教授は、田舎に住みたいらしい。",
+            "でも、田舎で暮らすのは、何かと難しい。"
+          ],
+          "trg": {
+            "correct": [
+              "I heard the professor, who grew up in an urban area, wants to live in a countryside.",
+              "But it seems hard to live in his hometown."
+            ],
+            "incorrect": [
+              "I heard the professor, who grew up in an urban area, wants to live in a countryside.",
+              "But it seems hard to live in countryside."
+            ]
+          }
+        }
+      ]
+    },
+    "55": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "うちの猫、部屋で、ネズミを捕まえたんですよ。",
+            "家にネズミがいたの？"
+          ],
+          "trg": {
+            "correct": [
+              "My cat caught a rat in my room.",
+              "Did you have a rat at home?"
+            ],
+            "incorrect": [
+              "My cat caught a rat in my room.",
+              "Did you have a mouse at home?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "うちの猫、部屋で、ネズミを捕まえたんですよ。",
+            "家にネズミがいたの？"
+          ],
+          "trg": {
+            "correct": [
+              "My cat caught a mouse in my room.",
+              "Did you have a mouse at home?"
+            ],
+            "incorrect": [
+              "My cat caught a mouse in my room.",
+              "Did you have a rat at home?"
+            ]
+          }
+        }
+      ]
+    },
+    "56": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "サッカーの試合で使える笛を持っていますか？",
+            "いいえ、笛は持っていません。"
+          ],
+          "trg": {
+            "correct": [
+              "Do you have a whistle that you can use in football matches?",
+              "No, I do not have a whistle."
+            ],
+            "incorrect": [
+              "Do you have a whistle that you can use in football matches?",
+              "No, I do not have a flute."
+            ]
+          }
+        },
+        {
+          "src": [
+            "サッカーの試合で使える笛を持っていますか？",
+            "いいえ、笛は持っていません。"
+          ],
+          "trg": {
+            "correct": [
+              "Do you have a flute that you can use in a jazz band?",
+              "No, I do not have a flute."
+            ],
+            "incorrect": [
+              "Do you have a flute that you can use in a jazz band?",
+              "No, I do not have a whistle."
+            ]
+          }
+        }
+      ]
+    },
+    "57": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "子供の頃、馬を飼っていたんだって？",
+            "馬は飼っていませんが、牛はいました。"
+          ],
+          "trg": {
+            "correct": [
+              "Did you breed a horse when you were a child?",
+              "I did not have a horse, but I had cows."
+            ],
+            "incorrect": [
+              "Did you breed a horse when you were a child?",
+              "I did not have a pony, but I had cows."
+            ]
+          }
+        },
+        {
+          "src": [
+            "子供の頃、馬を飼っていたんだって？",
+            "馬は飼っていませんが、牛はいました。"
+          ],
+          "trg": {
+            "correct": [
+              "Did you breed a pony when you were a child?",
+              "I did not have a pony, but I had cows."
+            ],
+            "incorrect": [
+              "Did you breed a pony when you were a child?",
+              "I did not have a horse, but I had cows."
+            ]
+          }
+        }
+      ]
+    },
+    "58": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この部屋には、時計はどこにあるの？",
+            "時計はありません。"
+          ],
+          "trg": {
+            "correct": [
+              "Where is the clock in this room?",
+              "I don't have a clock in this room."
+            ],
+            "incorrect": [
+              "Where is the clock in this room?",
+              "I don't have a watch in this room."
+            ]
+          }
+        },
+        {
+          "src": [
+            "この部屋には、時計はどこにあるの？",
+            "時計はありません。"
+          ],
+          "trg": {
+            "correct": [
+              "Where is the watch in this room?",
+              "I don't have a watch in this room."
+            ],
+            "incorrect": [
+              "Where is the watch in this room?",
+              "I don't have a clock in this room."
+            ]
+          }
+        }
+      ]
+    },
+    "59": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "寝室に銃を置いてる。",
+            "寝室に銃を置いてるんだって？"
+          ],
+          "trg": {
+            "correct": [
+              "I have a gun in my bed room.",
+              "Did you say you have a gun in your bed room?"
+            ],
+            "incorrect": [
+              "I have a gun in my bed room.",
+              "Did you say you have a rifle in your bed room?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "寝室に銃を置いてる。",
+            "寝室に銃を置いてるんだって？"
+          ],
+          "trg": {
+            "correct": [
+              "I have a rifle in my bed room.",
+              "Did you say you have a rifle in your bed room?"
+            ],
+            "incorrect": [
+              "I have a rifle in my bed room.",
+              "Did you say you have a gun in your bed room?"
+            ]
+          }
+        }
+      ]
+    },
+    "60": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "鶏が卵を生むのを見たんだ。",
+            "鶏が卵を生むのを見たの？"
+          ],
+          "trg": {
+            "correct": [
+              "I saw roosters lay eggs.",
+              "Did you see roosters lay eggs?"
+            ],
+            "incorrect": [
+              "I saw roosters lay eggs.",
+              "Did you see hens lay eggs?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "鶏が卵を生むのを見たんだ。",
+            "鶏が卵を生むのを見たの？"
+          ],
+          "trg": {
+            "correct": [
+              "I saw hens lay eggs.",
+              "Did you see hens lay eggs?"
+            ],
+            "incorrect": [
+              "I saw hens lay eggs.",
+              "Did you see roosters lay eggs?"
+            ]
+          }
+        }
+      ]
+    },
+    "61": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "政治家の先生が演説に来るらしいよ。",
+            "先生が来られるのですか？"
+          ],
+          "trg": {
+            "correct": [
+              "I heard that a politician will come to make a speech.",
+              "Will the politician come?"
+            ],
+            "incorrect": [
+              "I heard that a politician will come to make a speech.",
+              "Will the teacher come?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "政治家の先生が演説に来るらしいよ。",
+            "先生が来られるのですか？"
+          ],
+          "trg": {
+            "correct": [
+              "I heard that a teacher will come to make a speech.",
+              "Will the teacher come?"
+            ],
+            "incorrect": [
+              "I heard that a teacher will come to make a speech.",
+              "Will the politician come?"
+            ]
+          }
+        }
+      ]
+    },
+    "62": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この学生は、明るいです。",
+            "明るいですね。"
+          ],
+          "trg": {
+            "correct": [
+              "This student is enjoyable.",
+              "He is indeed enjoyable."
+            ],
+            "incorrect": [
+              "This student is enjoyable.",
+              "He is indeed bright."
+            ]
+          }
+        },
+        {
+          "src": [
+            "この学生は、明るいです。",
+            "明るいですね。"
+          ],
+          "trg": {
+            "correct": [
+              "This student is bright.",
+              "He is indeed bright."
+            ],
+            "incorrect": [
+              "This student is bright.",
+              "He is indeed enjoyable."
+            ]
+          }
+        }
+      ]
+    },
+    "63": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "うるさいのはやめてください。",
+            "では、うるさいのは避けるようにします。"
+          ],
+          "trg": {
+            "correct": [
+              "Don't be loud.",
+              "I will avoid being loud."
+            ],
+            "incorrect": [
+              "Don't be loud.",
+              "I will avoid being vivid."
+            ]
+          }
+        },
+        {
+          "src": [
+            "うるさいのはやめてください。",
+            "では、うるさいのは避けるようにします。"
+          ],
+          "trg": {
+            "correct": [
+              "Don't be vivid.",
+              "I will avoid being vivid."
+            ],
+            "incorrect": [
+              "Don't be vivid.",
+              "I will avoid being loud."
+            ]
+          }
+        }
+      ]
+    },
+    "64": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "それは、甘すぎる。",
+            "これも、甘いですか？"
+          ],
+          "trg": {
+            "correct": [
+              "This is too sweet.",
+              "Do you think this is sweet?"
+            ],
+            "incorrect": [
+              "This is too sweet.",
+              "Do you think this is shallow?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "それは、甘すぎる。",
+            "これも、甘いですか？"
+          ],
+          "trg": {
+            "correct": [
+              "This is too shallow.",
+              "Do you think this is shallow?"
+            ],
+            "incorrect": [
+              "This is too shallow.",
+              "Do you think this is sweet?"
+            ]
+          }
+        }
+      ]
+    },
+    "65": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "こいつは青いな。",
+            "青いでしょうか？"
+          ],
+          "trg": {
+            "correct": [
+              "This is immature. ",
+              "Is it immature?"
+            ],
+            "incorrect": [
+              "This is immature. ",
+              "Is it blue?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "こいつは青いな。",
+            "青いでしょうか？"
+          ],
+          "trg": {
+            "correct": [
+              "This is blue.",
+              "Is it blue?"
+            ],
+            "incorrect": [
+              "This is blue.",
+              "Is it immature?"
+            ]
+          }
+        }
+      ]
+    },
+    "66": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "これは、本当にうまい。",
+            "本当にうまいですよね。"
+          ],
+          "trg": {
+            "correct": [
+              "This is really good.",
+              "It's really good, isn't it?"
+            ],
+            "incorrect": [
+              "This is really good.",
+              "It's really delicious, isn't it?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "これは、本当にうまい。",
+            "本当にうまいですよね。"
+          ],
+          "trg": {
+            "correct": [
+              "This is really delicious.",
+              "It's really delicious, isn't it?"
+            ],
+            "incorrect": [
+              "This is really delicious.",
+              "It's really good, isn't it?"
+            ]
+          }
+        }
+      ]
+    },
+    "67": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "独特の硬質感がある。",
+            "独特、か。うまい言葉だ。"
+          ],
+          "trg": {
+            "correct": [
+              "It is peculiarly stiff.",
+              "\"Peculiar -- that is the very word.\""
+            ],
+            "incorrect": [
+              "It is peculiarly stiff.",
+              "\"Spefic -- that is the very word.\""
+            ]
+          }
+        },
+        {
+          "src": [
+            "独特の硬質感がある。",
+            "独特、か。うまい言葉だ。"
+          ],
+          "trg": {
+            "correct": [
+              "It is specifically stiff.",
+              "\"Spefic -- that is the very word.\""
+            ],
+            "incorrect": [
+              "It is specifically stiff.",
+              "\"Peculiar -- that is the very word.\""
+            ]
+          }
+        }
+      ]
+    },
+    "68": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "急ですね？",
+            "急すぎますか？"
+          ],
+          "trg": {
+            "correct": [
+              "Isn't it too sudden?",
+              "It is that sudden?"
+            ],
+            "incorrect": [
+              "Isn't it too sudden?",
+              "Is it that steep?"
+            ]
+          }
+        },
+        {
+          "src": [
+            "急ですね？",
+            "急すぎますか？"
+          ],
+          "trg": {
+            "correct": [
+              "Isn't it too steep?",
+              "Is it that steep?"
+            ],
+            "incorrect": [
+              "Isn't it too steep?",
+              "It is that sudden?"
+            ]
+          }
+        }
+      ]
+    },
+    "69": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "濃いのが好きなように見えます。",
+            "濃いのが好きなので。"
+          ],
+          "trg": {
+            "correct": [
+              "It looks like you prefer being strong.",
+              "I like strong one."
+            ],
+            "incorrect": [
+              "It looks like you prefer being strong.",
+              "I like dark one."
+            ]
+          }
+        },
+        {
+          "src": [
+            "濃いのが好きなように見えます。",
+            "濃いのが好きなので。"
+          ],
+          "trg": {
+            "correct": [
+              "It looks like you prefer being dark.",
+              "I like dark one."
+            ],
+            "incorrect": [
+              "It looks like you prefer being dark.",
+              "I like strong one."
+            ]
+          }
+        }
+      ]
+    },
+    "70": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "鈍いのに困っています。",
+            "鈍いのは注意した方がよいです。"
+          ],
+          "trg": {
+            "correct": [
+              "I have trouble being dull.",
+              "Being dull is something you should care about."
+            ],
+            "incorrect": [
+              "I have trouble being dull.",
+              "Being slow is something you should care about."
+            ]
+          }
+        },
+        {
+          "src": [
+            "鈍いのに困っています。",
+            "鈍いのは注意した方がよいです。"
+          ],
+          "trg": {
+            "correct": [
+              "I have trouble being slow.",
+              "Being slow is something you should care about."
+            ],
+            "incorrect": [
+              "I have trouble being slow.",
+              "Being dull is something you should care about."
+            ]
+          }
+        }
+      ]
+    },
+    "71": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "これはぴったりだ。",
+            "ぴったりですね。"
+          ],
+          "trg": {
+            "correct": [
+              "This is just right.",
+              "Just right."
+            ],
+            "incorrect": [
+              "This is just right.",
+              "Just tight."
+            ]
+          }
+        },
+        {
+          "src": [
+            "これはぴったりだ。",
+            "ぴったりですね。"
+          ],
+          "trg": {
+            "correct": [
+              "The is just tight.",
+              "Just tight."
+            ],
+            "incorrect": [
+              "The is just tight.",
+              "Just right."
+            ]
+          }
+        }
+      ]
+    },
+    "72": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この辺にはコウモリが出るよ。",
+            "あっコウモリだ！"
+          ],
+          "trg": {
+            "correct": [
+              "Bats come out around here.",
+              "Oh, that's a bat !"
+            ],
+            "incorrect": [
+              "Bats come out around here.",
+              "Oh, that's a flying fox !"
+            ]
+          }
+        },
+        {
+          "src": [
+            "この辺にはコウモリが出るよ。",
+            "あっコウモリだ！"
+          ],
+          "trg": {
+            "correct": [
+              "flying foxes come out around here.",
+              "Oh, that's a flying fox !"
+            ],
+            "incorrect": [
+              "flying foxes come out around here.",
+              "Oh, that's a bat !"
+            ]
+          }
+        }
+      ]
+    },
+    "73": {
+      "type": "repet",
+      "examples": [
+        {
+          "src": [
+            "この辺にはトンボが飛んでるよ。",
+            "あっトンボだ！"
+          ],
+          "trg": {
+            "correct": [
+              "Damselflies fly around here.",
+              "Oh, that's a Damselfly!"
+            ],
+            "incorrect": [
+              "Damselflies fly around here.",
+              "Oh, that's a Dragonfly!"
+            ]
+          }
+        },
+        {
+          "src": [
+            "この辺にはトンボが飛んでるよ。",
+            "あっトンボだ！"
+          ],
+          "trg": {
+            "correct": [
+              "Dragonflies fly around here.",
+              "Oh, that's a Dragonfly!"
+            ],
+            "incorrect": [
+              "Dragonflies fly around here.",
+              "Oh, that's a Damselfly!"
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
