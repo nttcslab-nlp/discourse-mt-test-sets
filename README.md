@@ -53,4 +53,4 @@ We used JSON. Here is an example.
 
 ## LICENSE
 
-This data is released under the NTT License, see `LICESCE.txt`.
+This data is released under the NTT License, see `LICENSE.txt`.
